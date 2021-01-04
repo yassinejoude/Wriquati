@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const useStyles = makeStyles(() => ({
   searchForm: {
     margin: "0 auto",
-    marginTop: "50px",
+    marginTop: "15px",
     textAlign: "center",
     color: "red",
   },
