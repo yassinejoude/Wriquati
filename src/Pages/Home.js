@@ -1,35 +1,47 @@
-import React from "react";
-import Header from "../components/Header";
+import React, { useState } from "react";
 import SearchField from "../components/SearchField";
-import Clouds from "../components/clouds";
+import SearchAsset from "../components/SearchAsset";
 import { makeStyles } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import "./home.css";
 import People from "../components/People";
 import Grid from "@material-ui/core/Grid";
-import Cards from "../components/Cards";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles(() => ({
-  container: {
-   
+  homeContainer: {
+    height: "92vh",
   },
-  title: {
+  searchContainer:{
+    backgroundColor: "#74daee",
+    opacity: "1",
+    height: "100vh",
+    width:'100%',
+    position:'absolute',
+  },
+  homeTitle: {
     color: "#FF9B1B",
     fontSize: "45px",
     fontFamily: "Dosis",
     marginLeft: "21%",
     marginBottom: "0px",
-    marginTop:"0"
+    marginTop: "0",
+  },
+  searchTitle: {
+    color: "white",
+    fontSize: "45px",
+    fontFamily: "Dosis",
+    margin: "0 auto",
+    width: "480px",
+    
   },
   text: {
     color: "#2C6776",
     fontSize: "18px",
     fontFamily: "Dosis",
     padding: "15px 0",
-    paddingBottom:'0',
+    paddingBottom: "0",
     marginLeft: "10%",
-     
   },
   button: {
     backgroundColor: "#FF9B1B",
@@ -43,58 +55,57 @@ const useStyles = makeStyles(() => ({
     height: "40px",
     padding: "0px 20px",
     marginLeft: "14%",
-  
   },
   headerText: {
     marginTop: "150px",
     marginLeft: "5%",
   },
 }));
-export default function Home() {
+export default function Home(props) {
   const classes = useStyles();
+  const [isInputFocus, SetInputFocus] = useState(false);
+  const handleFocus = (x) => {
+    SetInputFocus(x);
+props.showHeader(false)
+  };
 
   return (
     <React.Fragment>
       <CssBaseline />
-      <div className={classes.container}>
-        
-        <Grid
-            
-            container
-            direction="row"
-            justify="center"
-            alignItems="center"
-          >
-   <Grid item xs={12}>
-          <h1 className={classes.title}>Did you lost a document?</h1>
-        </Grid>
-        <Grid item xs={12}>
-          <SearchField />
-        </Grid>
-        <Grid item xs={3}>
-          <p className={classes.text}>
-            if you find a document please click here
-          </p>
-       
-        </Grid>
-        <Grid item xs={2}>
-          <Link to="./Step1">
-             <input
-            type="Button"
-            
-            className={classes.button}
-            value="i found a document"
-            ></input>
-            </Link>
-        </Grid>
+      <div className={isInputFocus? classes.searchContainer:classes.homeContainer}>
+        <Grid  style={isInputFocus? {paddingTop:'8vh'}:{}} container direction="row" justify="center" alignItems="center">
+          <Grid item xs={12}>
+            {isInputFocus === false && (
+              <h1 className={classes.homeTitle}>Did you lost a document?</h1>
+            )}
+            {isInputFocus && (
+              <h1 className={classes.searchTitle}>USE WRIQUATI'S SEARCH</h1>
+            )}
           </Grid>
-     
+          <Grid item xs={12}>
+            <SearchField handleFocus={handleFocus} />
+          </Grid>
+
+          <Grid hidden={isInputFocus} item xs={3}>
+            <p className={classes.text}>
+              if you find a document please click here
+            </p>
+          </Grid>
+          <Grid hidden={isInputFocus} item xs={2}>
+            <Link to="./Step">
+              <button type="Button" className={classes.button}>
+                i found a document
+              </button>
+            </Link>
+          </Grid>
+        </Grid>
 
         <div>
           <Grid
             style={{
               position: "absolute",
               bottom: "0",
+        
             }}
             container
             direction="row"
@@ -102,7 +113,8 @@ export default function Home() {
             alignItems="center"
           >
             <Grid item xs={12}>
-              <People />
+              {isInputFocus === false && <People />}
+              {isInputFocus && <SearchAsset />}
             </Grid>
           </Grid>
         </div>

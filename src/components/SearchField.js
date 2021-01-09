@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 const useStyles = makeStyles(() => ({
   searchForm: {
     margin: "0 auto",
-    marginTop: "15px",
     textAlign: "center",
     color: "red",
+   
   },
   searchField: {
     backgroundColor: "#FF9B1B",
@@ -25,16 +25,20 @@ const useStyles = makeStyles(() => ({
   },
 }));
 const variants = {
-  hidden: { opacity: 1, y:-1000 },
+  hidden: { opacity: 1, y: -1000 },
   visible: { opacity: 1, y: 0 },
 };
-export default function Home() {
+export default function Home(props) {
   const classes = useStyles();
 
   const showSearchField = () => {
     return (
-      <form className={classes.searchForm} noValidate autoComplete="off">
+      <form  className={classes.searchForm} noValidate autoComplete="off">
         <input
+       
+onChange={() => {
+  props.handleFocus(true);
+}}
           className={classes.searchField}
           type="text"
           placeholder="I LOST A DOCUMENT"
@@ -42,5 +46,19 @@ export default function Home() {
       </form>
     );
   };
-return <motion.div initial={variants.hidden} animate={variants.visible} transition={{ duration: 0.2}}>{showSearchField()}</motion.div>;
+  return (
+    <motion.div style={{
+      position: "",
+      top: "30",
+
+      
+    }} 
+    
+      initial={variants.hidden}
+      animate={variants.visible}
+      transition={{ duration: 0.2 }}
+    >
+      {showSearchField()}
+    </motion.div>
+  );
 }

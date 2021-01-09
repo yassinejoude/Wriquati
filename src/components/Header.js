@@ -37,7 +37,8 @@ const useStyle = makeStyles(() => ({
   heroAppBarStyle: {
     margin: "0 auto",
     textAlign: "center",
-    color:'#077F88'
+    color:'#077F88',
+    height: '8vh'
   },
 }));
 
