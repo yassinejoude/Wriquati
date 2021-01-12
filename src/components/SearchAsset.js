@@ -1,68 +1,40 @@
-import React from 'react';
+import React from "react";
 const SearchAsset = () => {
   return (
     <svg
-    style={{
+      style={{
         display: "block",
         margin: "auto",
-//width:"70%"
-       
+        width:"75%"
       }}
-
-      viewBox="-30 245 1400 396.57" width="1300" height="600">
-         
-      <g id="searchAsset">
-     
-             <g
-              id="clouds"
-              fill="#fff"
-             
-            >
-              <path
-                id="Path_2"
-                d="M1139 356.26c7.9.15 16.07.25 23.36-2.79 7.8-3.24 14.27-10.87 13.87-19.31s-9.69-15.92-17.51-12.74c-5.44 2.2-8.31 8.29-9.14 14.1a12.21 12.21 0 00-23.78 3.3 10 10 0 00-19.56 1.57c-1.74-6.79-3.66-13.89-8.48-19s-13.55-7.18-18.85-2.59c-6 5.24-4.16 14.89-1.77 22.52a14 14 0 00-7.36 3c-2 1.8-3 4.85-1.85 7.26s4.21 3.44 6.93 3.52c21.28.68 42.73.76 64.14 1.16z"
-                data-name="Path 2"
-              ></path>
-              <path
-                id="Path_4"
-                d="M589 265.29c2.11 0 4.4-.06 6-1.4 1.85-1.53 2.2-4.19 2.4-6.58a7.89 7.89 0 00-.53-4.63c-.86-1.51-2.59-2.26-4.24-2.78-3-1-6.35-1.47-9.35-.43s-5.51 4-5.18 7.15a7.63 7.63 0 00-13.75-.8c-4.13-11.46-18.09-18.29-29.67-14.52a12.55 12.55 0 00-6.92 4.76c-1.54 2.41-1.64 5.88.34 7.93 1.09 1.13 2.74 1.82 3.25 3.3a10.68 10.68 0 01.22 2.7c.77 9.32 18.07 7.54 24 6.56 11.11-1.83 22.23-1.28 33.43-1.26z"
-                data-name="Path 4"
-              ></path>
-              <path
-                id="Path_357"
-                d="M1258.51 238.26c15.08.28 30.66.47 44.59-5.32 14.88-6.19 27.24-20.77 26.46-36.87s-18.48-30.39-33.41-24.32c-10.38 4.21-15.87 15.83-17.45 26.92-3.41-10.22-14.64-17.2-25.32-15.72s-19.58 11.25-20.08 22a19 19 0 00-37.33 3c-3.33-12.95-7-26.51-16.19-36.2s-25.87-13.7-36-4.95c-11.54 10-7.94 28.43-3.37 43-5.06.77-10.24 2.22-14 5.66s-5.81 9.27-3.54 13.86 8 6.56 13.23 6.73c40.68 1.3 81.62 1.44 122.41 2.21z"
-                data-name="Path 357"
-              ></path>
-              <path
-                id="Path_3"
-                d="M181.06 332.84c11.41-.12 22.94-.25 34.05-2.85 9.18-2.15 19.54-8.35 18.9-17.75-.48-7.05-7.85-12.33-14.91-12s-13.31 5.15-17.06 11.14c-1.7-7.81-5.2-16-12.36-19.61s-18.07.86-17.89 8.85c-3.91-8.19-8-16.64-14.93-22.51-9.5-8.07-24.26-9.77-34.79-3.11s-15.2 21.67-9.38 32.68c-6.63-3.14-14.74-3.59-21.22-.15s-10.77 11.1-9.27 18.28c3.57 17 26.38 7.79 37.81 7.67z"
-                data-name="Path 3"
-              ></path>
-            </g>
+      viewBox="0 0 1247.7 580.85"
+   
+    >
+      <g id="seacrhAsset">
         <g id="paper">
           <g id="Group_1" data-name="Group 1">
             <path
               id="Path_5"
               fill="#fff"
-              d="M1014.17 456.84v10.69l9.17-9.71z"
+              d="M961.64 272.87v10.68l9.17-9.7z"
               data-name="Path 5"
             ></path>
             <path
               id="Path_6"
               fill="#fff"
-              d="M1016.47 457.82l36.11-29.09-17.21 33.94z"
+              d="M963.94 273.85l36.11-29.1-17.21 33.95z"
               data-name="Path 6"
             ></path>
             <path
               id="Path_7"
               fill="#fff"
-              d="M1052.58 428.73l-51 22.76 14.86 6.33z"
+              d="M1000.05 244.75l-51 22.76 14.86 6.34z"
               data-name="Path 7"
             ></path>
             <path
               id="Path_8"
               fill="#662d91"
-              d="M1016.47 457.82l-2.3-1 38.41-28.11z"
+              d="M963.94 273.85l-2.3-1 38.41-28.12z"
               data-name="Path 8"
             ></path>
           </g>
@@ -72,8 +44,8 @@ const SearchAsset = () => {
             id="Rectangle_1"
             width="658.45"
             height="381.31"
-            x="349.35"
-            y="294.33"
+            x="296.82"
+            y="110.36"
             fill="#383838"
             data-name="Rectangle 1"
             rx="7.1"
@@ -81,123 +53,123 @@ const SearchAsset = () => {
           <path
             id="Rectangle_2"
             fill="#fff"
-            d="M370.79 314.25H986.3700000000001V655.71H370.79z"
+            d="M318.26 130.28H933.84V471.74H318.26z"
             data-name="Rectangle 2"
           ></path>
           <path
             id="Rectangle_3-2"
             fill="#d7eff9"
-            d="M370.79 314.25H986.3700000000001V341.07H370.79z"
+            d="M318.26 130.28H933.84V157.1H318.26z"
             data-name="Rectangle 3-2"
           ></path>
           <path
             id="Rectangle_4"
             fill="#d7eff9"
-            d="M374.65 344.93H499.4V651.12H374.65z"
+            d="M322.12 160.95H446.87V467.14H322.12z"
             data-name="Rectangle 4"
           ></path>
           <path
             id="Rectangle_5"
             fill="#d7eff9"
-            d="M641.72 344.93H647.0600000000001V651.12H641.72z"
+            d="M589.19 160.95H594.5300000000001V467.14H589.19z"
             data-name="Rectangle 5"
           ></path>
           <path
             id="Rectangle_6"
             fill="#d7eff9"
-            d="M506.2 359.67H603.98V368.18H506.2z"
+            d="M453.67 175.7H551.45V184.20999999999998H453.67z"
             data-name="Rectangle 6"
           ></path>
           <path
             id="Rectangle_7"
             fill="#fff"
-            d="M388.14 359.67H485.91999999999996V368.18H388.14z"
+            d="M335.6 175.7H433.38V184.20999999999998H335.6z"
             data-name="Rectangle 7"
           ></path>
           <path
             id="Rectangle_8"
             fill="#fff"
-            d="M388.14 497.72H485.91999999999996V506.23H388.14z"
+            d="M335.6 313.74H433.38V322.25H335.6z"
             data-name="Rectangle 8"
           ></path>
           <path
             id="Rectangle_9"
             fill="#fff"
-            d="M388.14 517.22H479.7V525.73H388.14z"
+            d="M335.6 333.24H427.16V341.75H335.6z"
             data-name="Rectangle 9"
           ></path>
           <path
             id="Rectangle_10"
             fill="#fff"
-            d="M388.14 536.71H419.26V545.21H388.14z"
+            d="M335.6 352.74H366.72V361.24H335.6z"
             data-name="Rectangle 10"
           ></path>
           <path
             id="Rectangle_11"
             fill="#fff"
-            d="M388.14 556.21H453.53999999999996V564.72H388.14z"
+            d="M335.6 372.24H401V380.75H335.6z"
             data-name="Rectangle 11"
           ></path>
           <path
             id="Rectangle_12"
             fill="#d7eff9"
-            d="M506.2 374.42H613.95V382.93H506.2z"
+            d="M453.67 190.44H561.4200000000001V198.95H453.67z"
             data-name="Rectangle 12"
           ></path>
           <path
             id="Rectangle_13"
             fill="#d7eff9"
-            d="M506.2 389.16H603.98V397.67H506.2z"
+            d="M453.67 205.18H551.45V213.69H453.67z"
             data-name="Rectangle 13"
           ></path>
           <path
             id="Rectangle_14"
             fill="#d7eff9"
-            d="M506.2 403.9H625.27V412.40999999999997H506.2z"
+            d="M453.67 219.92H572.74V228.42999999999998H453.67z"
             data-name="Rectangle 14"
           ></path>
           <path
             id="Rectangle_15"
             fill="#d7eff9"
-            d="M506.2 418.64H575.02V427.15H506.2z"
+            d="M453.67 234.67H522.49V243.17999999999998H453.67z"
             data-name="Rectangle 15"
           ></path>
           <path
             id="Rectangle_16"
             fill="#d7eff9"
-            d="M506.2 433.39H610.28V441.9H506.2z"
+            d="M453.67 249.41H557.75V257.92H453.67z"
             data-name="Rectangle 16"
           ></path>
           <path
             id="Rectangle_17"
             fill="#d7eff9"
-            d="M506.2 448.13H614.01V456.64H506.2z"
+            d="M453.67 264.15H561.48V272.65999999999997H453.67z"
             data-name="Rectangle 17"
           ></path>
           <g id="Group_5" data-name="Group 5">
             <path
               id="Path_19"
               fill="#e54c64"
-              d="M391.51 327.67a4.53 4.53 0 11-4.52-4.53 4.53 4.53 0 014.52 4.53z"
+              d="M339 143.69a4.53 4.53 0 11-4.52-4.52 4.52 4.52 0 014.52 4.52z"
               data-name="Path 19"
             ></path>
             <path
               id="Path_20"
               fill="#fbb040"
-              d="M408.21 327.67a4.52 4.52 0 11-4.52-4.53 4.52 4.52 0 014.52 4.52z"
+              d="M355.68 143.69a4.52 4.52 0 11-4.52-4.52 4.52 4.52 0 014.52 4.52z"
               data-name="Path 20"
             ></path>
             <path
               id="Path_21"
               fill="#8dc63f"
-              d="M424.92 327.67a4.52 4.52 0 11-4.52-4.53 4.52 4.52 0 014.52 4.53z"
+              d="M372.39 143.69a4.52 4.52 0 11-4.52-4.52 4.52 4.52 0 014.52 4.52z"
               data-name="Path 21"
             ></path>
           </g>
           <path
             id="Path_22"
             fill="#fff"
-            d="M967.54 332.19H485.87a6.19 6.19 0 01-6.17-6.19 6.19 6.19 0 016.17-6.17h481.67a6.19 6.19 0 016.17 6.17 6.19 6.19 0 01-6.17 6.19z"
+            d="M915 148.21H433.34a6.19 6.19 0 01-6.17-6.18 6.19 6.19 0 016.17-6.17H915a6.19 6.19 0 016.17 6.17 6.19 6.19 0 01-6.17 6.18z"
             data-name="Path 22"
           ></path>
           <g id="cards" opacity="0.78">
@@ -206,8 +178,8 @@ const SearchAsset = () => {
                 id="Rectangle_18"
                 width="126.89"
                 height="76.39"
-                x="673.14"
-                y="361.19"
+                x="620.61"
+                y="177.21"
                 fill="#bfd9ff"
                 data-name="Rectangle 18"
                 rx="7.46"
@@ -216,8 +188,8 @@ const SearchAsset = () => {
                 id="Rectangle_19"
                 width="144.64"
                 height="87.07"
-                x="664.27"
-                y="355.85"
+                x="611.74"
+                y="171.87"
                 fill="#9f18ed"
                 data-name="Rectangle 19"
                 rx="8.5"
@@ -225,8 +197,8 @@ const SearchAsset = () => {
               <g id="Group_13" data-name="Group 13">
                 <ellipse
                   id="Ellipse_1"
-                  cx="774.58"
-                  cy="399.5"
+                  cx="722.05"
+                  cy="215.52"
                   fill="#fff"
                   data-name="Ellipse 1"
                   rx="23.24"
@@ -242,8 +214,8 @@ const SearchAsset = () => {
                       <g id="Group_9" data-name="Group 9">
                         <ellipse
                           id="Ellipse_2"
-                          cx="774.76"
-                          cy="397.73"
+                          cx="722.23"
+                          cy="213.76"
                           fill="#7e2d2c"
                           data-name="Ellipse 2"
                           rx="11.08"
@@ -252,13 +224,13 @@ const SearchAsset = () => {
                         <path
                           id="Path_23"
                           fill="#40bfe0"
-                          d="M793.32 427.78c-.5-10.54-8.7-18.92-18.74-18.92s-18.24 8.39-18.74 18.92z"
+                          d="M740.79 243.81c-.5-10.54-8.7-18.93-18.74-18.93s-18.24 8.39-18.74 18.93z"
                           data-name="Path 23"
                         ></path>
                         <path
                           id="Path_24"
                           fill="#ff7657"
-                          d="M780.66 411.82a6.09 6.09 0 11-6.08-6.47 6.29 6.29 0 016.08 6.47z"
+                          d="M728.13 227.84a6.09 6.09 0 11-6.09-6.46 6.28 6.28 0 016.09 6.46z"
                           data-name="Path 24"
                         ></path>
                         <g id="Group_8" data-name="Group 8">
@@ -266,7 +238,7 @@ const SearchAsset = () => {
                             <path
                               id="Path_25"
                               fill="#ff7657"
-                              d="M787.17 400.54a2.49 2.49 0 11-2.48-2.63 2.56 2.56 0 012.48 2.63z"
+                              d="M734.64 216.56a2.49 2.49 0 11-2.48-2.63 2.56 2.56 0 012.48 2.63z"
                               data-name="Path 25"
                             ></path>
                           </g>
@@ -274,21 +246,21 @@ const SearchAsset = () => {
                             <path
                               id="Path_26"
                               fill="#ff7657"
-                              d="M766.48 400.54a2.48 2.48 0 11-2.48-2.63 2.56 2.56 0 012.48 2.63z"
+                              d="M714 216.56a2.48 2.48 0 11-2.48-2.63 2.56 2.56 0 012.48 2.63z"
                               data-name="Path 26"
                             ></path>
                           </g>
                           <path
                             id="Path_27"
                             fill="#ff9677"
-                            d="M784.33 400.54c0 5.76-4.39 10.42-9.81 10.42s-9.8-4.66-9.8-10.42 4.39-10.42 9.8-10.42 9.81 4.67 9.81 10.42z"
+                            d="M731.8 216.56c0 5.76-4.39 10.42-9.81 10.42s-9.8-4.66-9.8-10.42 4.39-10.42 9.8-10.42 9.81 4.67 9.81 10.42z"
                             data-name="Path 27"
                           ></path>
                         </g>
                         <path
                           id="Path_28"
                           fill="#7e2d2c"
-                          d="M784.89 397c-1.09 3.43-5.59 4.9-10 3.29s-7.16-5.69-6.07-9.11 5.6-4.9 10-3.29 7.18 5.67 6.07 9.11z"
+                          d="M732.36 213c-1.09 3.42-5.59 4.89-10 3.28s-7.16-5.68-6.07-9.11 5.6-4.89 10-3.29 7.17 5.7 6.07 9.12z"
                           data-name="Path 28"
                         ></path>
                       </g>
@@ -299,7 +271,7 @@ const SearchAsset = () => {
               <path
                 id="Path_29"
                 fill="#fff"
-                d="M736 434.43h-51.17a8.41 8.41 0 01-8.14-8.64 8.41 8.41 0 018.14-8.65H736a8.4 8.4 0 018.13 8.65 8.4 8.4 0 01-8.13 8.64z"
+                d="M683.47 250.46H632.3a8.41 8.41 0 01-8.14-8.65 8.41 8.41 0 018.14-8.64h51.17a8.4 8.4 0 018.13 8.64 8.41 8.41 0 01-8.13 8.65z"
                 data-name="Path 29"
               ></path>
               <path
@@ -309,7 +281,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M681.72 382.56L718.99 382.56"
+                d="M629.19 198.59L666.46 198.59"
                 data-name="Line 1"
               ></path>
               <path
@@ -319,7 +291,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M681.72 405.51L729.34 405.51"
+                d="M629.19 221.53L676.81 221.53"
                 data-name="Line 2"
               ></path>
               <path
@@ -329,7 +301,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M681.72 393.57L697.99 393.57"
+                d="M629.19 209.59L645.46 209.59"
                 data-name="Line 3"
               ></path>
               <path
@@ -339,7 +311,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M706.86 393.57L739.99 393.57"
+                d="M654.33 209.59L687.46 209.59"
                 data-name="Line 4"
               ></path>
               <path
@@ -349,7 +321,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M768.76 367.55L791.6 367.55"
+                d="M716.23 183.58L739.07 183.58"
                 data-name="Line 5"
               ></path>
             </g>
@@ -358,8 +330,8 @@ const SearchAsset = () => {
                 id="Rectangle_20"
                 width="126.89"
                 height="76.39"
-                x="673.14"
-                y="460.01"
+                x="620.61"
+                y="276.03"
                 fill="#bfd9ff"
                 data-name="Rectangle 20"
                 rx="7.46"
@@ -368,8 +340,8 @@ const SearchAsset = () => {
                 id="Rectangle_21"
                 width="144.64"
                 height="87.07"
-                x="664.27"
-                y="454.66"
+                x="611.74"
+                y="270.69"
                 fill="#9f18ed"
                 data-name="Rectangle 21"
                 rx="8.5"
@@ -377,8 +349,8 @@ const SearchAsset = () => {
               <g id="Group_22" data-name="Group 22">
                 <ellipse
                   id="Ellipse_3"
-                  cx="774.58"
-                  cy="498.32"
+                  cx="722.05"
+                  cy="314.34"
                   fill="#fff"
                   data-name="Ellipse 3"
                   rx="23.24"
@@ -394,8 +366,8 @@ const SearchAsset = () => {
                       <g id="Group_18" data-name="Group 18">
                         <ellipse
                           id="Ellipse_4"
-                          cx="774.76"
-                          cy="496.55"
+                          cx="722.23"
+                          cy="312.58"
                           fill="#7e2d2c"
                           data-name="Ellipse 4"
                           rx="11.08"
@@ -404,13 +376,13 @@ const SearchAsset = () => {
                         <path
                           id="Path_30"
                           fill="#40bfe0"
-                          d="M793.32 526.61c-.5-10.55-8.7-18.93-18.74-18.93s-18.24 8.38-18.74 18.93z"
+                          d="M740.79 342.63c-.5-10.54-8.7-18.93-18.74-18.93s-18.24 8.39-18.74 18.93z"
                           data-name="Path 30"
                         ></path>
                         <path
                           id="Path_31"
                           fill="#ff7657"
-                          d="M780.66 510.64a6.09 6.09 0 11-6.08-6.47 6.29 6.29 0 016.08 6.47z"
+                          d="M728.13 326.66a6.09 6.09 0 11-6.13-6.46 6.28 6.28 0 016.13 6.46z"
                           data-name="Path 31"
                         ></path>
                         <g id="Group_17" data-name="Group 17">
@@ -418,7 +390,7 @@ const SearchAsset = () => {
                             <path
                               id="Path_32"
                               fill="#ff7657"
-                              d="M787.17 499.36a2.49 2.49 0 11-2.48-2.64 2.57 2.57 0 012.48 2.64z"
+                              d="M734.64 315.38a2.49 2.49 0 11-2.48-2.63 2.56 2.56 0 012.48 2.63z"
                               data-name="Path 32"
                             ></path>
                           </g>
@@ -426,21 +398,21 @@ const SearchAsset = () => {
                             <path
                               id="Path_33"
                               fill="#ff7657"
-                              d="M766.48 499.36a2.48 2.48 0 11-2.48-2.64 2.56 2.56 0 012.48 2.64z"
+                              d="M714 315.38a2.48 2.48 0 11-2.48-2.63 2.55 2.55 0 012.48 2.63z"
                               data-name="Path 33"
                             ></path>
                           </g>
                           <path
                             id="Path_34"
                             fill="#ff9677"
-                            d="M784.33 499.36c0 5.75-4.39 10.42-9.81 10.42s-9.8-4.67-9.8-10.42 4.39-10.42 9.8-10.42 9.81 4.67 9.81 10.42z"
+                            d="M731.8 315.38c0 5.76-4.39 10.42-9.81 10.42s-9.8-4.66-9.8-10.42S716.58 305 722 305s9.8 4.63 9.8 10.38z"
                             data-name="Path 34"
                           ></path>
                         </g>
                         <path
                           id="Path_35"
                           fill="#7e2d2c"
-                          d="M784.89 495.8c-1.09 3.43-5.59 4.9-10 3.29s-7.16-5.69-6.07-9.11 5.6-4.9 10-3.29 7.18 5.69 6.07 9.11z"
+                          d="M732.36 311.82c-1.09 3.43-5.59 4.9-10 3.29s-7.16-5.69-6.07-9.11 5.6-4.9 10-3.29 7.17 5.69 6.07 9.11z"
                           data-name="Path 35"
                         ></path>
                       </g>
@@ -451,7 +423,7 @@ const SearchAsset = () => {
               <path
                 id="Path_36"
                 fill="#fff"
-                d="M736 533.25h-51.17a8.41 8.41 0 01-8.14-8.64 8.41 8.41 0 018.14-8.65H736a8.4 8.4 0 018.13 8.65 8.4 8.4 0 01-8.13 8.64z"
+                d="M683.47 349.27H632.3a8.41 8.41 0 01-8.14-8.64 8.41 8.41 0 018.14-8.63h51.17a8.4 8.4 0 018.13 8.64 8.4 8.4 0 01-8.13 8.63z"
                 data-name="Path 36"
               ></path>
               <path
@@ -461,7 +433,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M681.72 481.38L718.99 481.38"
+                d="M629.19 297.41L666.46 297.41"
                 data-name="Line 6"
               ></path>
               <path
@@ -471,7 +443,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M681.72 504.33L729.34 504.33"
+                d="M629.19 320.35L676.81 320.35"
                 data-name="Line 7"
               ></path>
               <path
@@ -481,7 +453,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M681.72 492.38L697.99 492.38"
+                d="M629.19 308.41L645.46 308.41"
                 data-name="Line 8"
               ></path>
               <path
@@ -491,7 +463,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M706.86 492.38L739.99 492.38"
+                d="M654.33 308.41L687.46 308.41"
                 data-name="Line 9"
               ></path>
               <path
@@ -501,7 +473,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M768.76 466.37L791.6 466.37"
+                d="M716.23 282.4L739.07 282.4"
                 data-name="Line 10"
               ></path>
             </g>
@@ -510,8 +482,8 @@ const SearchAsset = () => {
                 id="Rectangle_22"
                 width="126.89"
                 height="76.39"
-                x="833.38"
-                y="359.41"
+                x="780.85"
+                y="175.43"
                 fill="#bfd9ff"
                 data-name="Rectangle 22"
                 rx="7.46"
@@ -520,8 +492,8 @@ const SearchAsset = () => {
                 id="Rectangle_23"
                 width="144.64"
                 height="87.07"
-                x="824.5"
-                y="354.07"
+                x="771.97"
+                y="170.09"
                 fill="#9f18ed"
                 data-name="Rectangle 23"
                 rx="8.5"
@@ -529,8 +501,8 @@ const SearchAsset = () => {
               <g id="Group_31" data-name="Group 31">
                 <ellipse
                   id="Ellipse_5"
-                  cx="934.81"
-                  cy="397.72"
+                  cx="882.28"
+                  cy="213.74"
                   fill="#fff"
                   data-name="Ellipse 5"
                   rx="23.24"
@@ -546,8 +518,8 @@ const SearchAsset = () => {
                       <g id="Group_27" data-name="Group 27">
                         <ellipse
                           id="Ellipse_6"
-                          cx="934.99"
-                          cy="395.95"
+                          cx="882.46"
+                          cy="211.98"
                           fill="#7e2d2c"
                           data-name="Ellipse 6"
                           rx="11.08"
@@ -556,13 +528,13 @@ const SearchAsset = () => {
                         <path
                           id="Path_37"
                           fill="#40bfe0"
-                          d="M953.55 426c-.5-10.54-8.7-18.93-18.74-18.93s-18.24 8.39-18.74 18.93z"
+                          d="M901 242c-.5-10.54-8.7-18.92-18.74-18.92S864 231.49 863.54 242z"
                           data-name="Path 37"
                         ></path>
                         <path
                           id="Path_38"
                           fill="#ff7657"
-                          d="M940.89 410a6.09 6.09 0 11-6.08-6.47 6.29 6.29 0 016.08 6.47z"
+                          d="M888.36 226.06a6.09 6.09 0 11-6.08-6.46 6.28 6.28 0 016.08 6.46z"
                           data-name="Path 38"
                         ></path>
                         <g id="Group_26" data-name="Group 26">
@@ -570,7 +542,7 @@ const SearchAsset = () => {
                             <path
                               id="Path_39"
                               fill="#ff7657"
-                              d="M947.4 398.76a2.49 2.49 0 11-2.48-2.64 2.57 2.57 0 012.48 2.64z"
+                              d="M894.87 214.78a2.49 2.49 0 11-2.48-2.63 2.56 2.56 0 012.48 2.63z"
                               data-name="Path 39"
                             ></path>
                           </g>
@@ -578,21 +550,21 @@ const SearchAsset = () => {
                             <path
                               id="Path_40"
                               fill="#ff7657"
-                              d="M926.72 398.76a2.49 2.49 0 11-2.49-2.64 2.57 2.57 0 012.49 2.64z"
+                              d="M874.19 214.78a2.49 2.49 0 11-2.49-2.63 2.56 2.56 0 012.49 2.63z"
                               data-name="Path 40"
                             ></path>
                           </g>
                           <path
                             id="Path_41"
                             fill="#ff9677"
-                            d="M944.56 398.76c0 5.76-4.39 10.42-9.8 10.42s-9.76-4.66-9.76-10.42 4.39-10.42 9.81-10.42 9.75 4.66 9.75 10.42z"
+                            d="M892 214.78c0 5.76-4.39 10.42-9.8 10.42s-9.81-4.66-9.81-10.42 4.39-10.41 9.81-10.41 9.8 4.63 9.8 10.41z"
                             data-name="Path 41"
                           ></path>
                         </g>
                         <path
                           id="Path_42"
                           fill="#7e2d2c"
-                          d="M945.12 395.2c-1.09 3.43-5.59 4.9-10 3.29s-7.17-5.69-6.07-9.11 5.59-4.9 10-3.29 7.17 5.69 6.07 9.11z"
+                          d="M892.59 211.23c-1.09 3.42-5.59 4.89-10 3.28s-7.17-5.68-6.07-9.11 5.59-4.89 10-3.29 7.17 5.69 6.07 9.12z"
                           data-name="Path 42"
                         ></path>
                       </g>
@@ -603,7 +575,7 @@ const SearchAsset = () => {
               <path
                 id="Path_43"
                 fill="#fff"
-                d="M896.23 432.65h-51.17a8.4 8.4 0 01-8.13-8.64 8.4 8.4 0 018.13-8.65h51.17a8.4 8.4 0 018.13 8.65 8.4 8.4 0 01-8.13 8.64z"
+                d="M843.7 248.68h-51.17a8.4 8.4 0 01-8.13-8.68 8.4 8.4 0 018.13-8.64h51.17a8.4 8.4 0 018.13 8.64 8.4 8.4 0 01-8.13 8.68z"
                 data-name="Path 43"
               ></path>
               <path
@@ -613,7 +585,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M841.95 380.78L879.22 380.78"
+                d="M789.42 196.81L826.69 196.81"
                 data-name="Line 11"
               ></path>
               <path
@@ -623,7 +595,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M841.95 403.73L889.57 403.73"
+                d="M789.42 219.76L837.04 219.76"
                 data-name="Line 12"
               ></path>
               <path
@@ -633,7 +605,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M841.95 391.79L858.22 391.79"
+                d="M789.42 207.81L805.69 207.81"
                 data-name="Line 13"
               ></path>
               <path
@@ -643,7 +615,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M867.09 391.79L900.22 391.79"
+                d="M814.56 207.81L847.69 207.81"
                 data-name="Line 14"
               ></path>
               <path
@@ -653,7 +625,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M928.99 365.77L951.84 365.77"
+                d="M876.46 181.8L899.31 181.8"
                 data-name="Line 15"
               ></path>
             </g>
@@ -662,8 +634,8 @@ const SearchAsset = () => {
                 id="Rectangle_24"
                 width="126.89"
                 height="76.39"
-                x="833.87"
-                y="460.01"
+                x="781.34"
+                y="276.03"
                 fill="#bfd9ff"
                 data-name="Rectangle 24"
                 rx="7.46"
@@ -672,8 +644,8 @@ const SearchAsset = () => {
                 id="Rectangle_25"
                 width="144.64"
                 height="87.07"
-                x="825"
-                y="454.66"
+                x="772.47"
+                y="270.69"
                 fill="#9f18ed"
                 data-name="Rectangle 25"
                 rx="8.5"
@@ -681,8 +653,8 @@ const SearchAsset = () => {
               <g id="Group_40" data-name="Group 40">
                 <ellipse
                   id="Ellipse_7"
-                  cx="935.3"
-                  cy="498.32"
+                  cx="882.77"
+                  cy="314.34"
                   fill="#fff"
                   data-name="Ellipse 7"
                   rx="23.24"
@@ -698,8 +670,8 @@ const SearchAsset = () => {
                       <g id="Group_36" data-name="Group 36">
                         <ellipse
                           id="Ellipse_8"
-                          cx="935.49"
-                          cy="496.55"
+                          cx="882.96"
+                          cy="312.58"
                           fill="#7e2d2c"
                           data-name="Ellipse 8"
                           rx="11.08"
@@ -708,13 +680,13 @@ const SearchAsset = () => {
                         <path
                           id="Path_44"
                           fill="#40bfe0"
-                          d="M954 526.61c-.49-10.55-8.69-18.93-18.74-18.93s-18.23 8.38-18.73 18.93z"
+                          d="M901.51 342.63c-.49-10.54-8.69-18.93-18.74-18.93s-18.24 8.39-18.73 18.93z"
                           data-name="Path 44"
                         ></path>
                         <path
                           id="Path_45"
                           fill="#ff7657"
-                          d="M941.38 510.64a6.09 6.09 0 11-6.08-6.47 6.28 6.28 0 016.08 6.47z"
+                          d="M888.85 326.66a6.09 6.09 0 11-6.08-6.46 6.27 6.27 0 016.08 6.46z"
                           data-name="Path 45"
                         ></path>
                         <g id="Group_35" data-name="Group 35">
@@ -722,7 +694,7 @@ const SearchAsset = () => {
                             <path
                               id="Path_46"
                               fill="#ff7657"
-                              d="M947.89 499.36a2.48 2.48 0 11-2.48-2.64 2.56 2.56 0 012.48 2.64z"
+                              d="M895.36 315.38a2.48 2.48 0 11-2.48-2.63 2.54 2.54 0 012.48 2.63z"
                               data-name="Path 46"
                             ></path>
                           </g>
@@ -730,21 +702,21 @@ const SearchAsset = () => {
                             <path
                               id="Path_47"
                               fill="#ff7657"
-                              d="M927.21 499.36a2.48 2.48 0 11-2.48-2.64 2.57 2.57 0 012.48 2.64z"
+                              d="M874.68 315.38a2.48 2.48 0 11-2.48-2.63 2.56 2.56 0 012.48 2.63z"
                               data-name="Path 47"
                             ></path>
                           </g>
                           <path
                             id="Path_48"
                             fill="#ff9677"
-                            d="M945.06 499.36c0 5.75-4.39 10.42-9.81 10.42s-9.8-4.67-9.8-10.42 4.39-10.42 9.8-10.42 9.81 4.67 9.81 10.42z"
+                            d="M892.53 315.38c0 5.76-4.39 10.42-9.81 10.42s-9.8-4.66-9.8-10.42 4.39-10.42 9.8-10.42 9.81 4.67 9.81 10.42z"
                             data-name="Path 48"
                           ></path>
                         </g>
                         <path
                           id="Path_49"
                           fill="#7e2d2c"
-                          d="M945.62 495.8c-1.1 3.43-5.59 4.9-10 3.29s-7.16-5.69-6.07-9.11 5.59-4.9 10-3.29 7.16 5.69 6.07 9.11z"
+                          d="M893.09 311.82c-1.1 3.43-5.59 4.9-10 3.29s-7.16-5.69-6.07-9.11 5.59-4.9 10-3.29 7.16 5.69 6.07 9.11z"
                           data-name="Path 49"
                         ></path>
                       </g>
@@ -755,7 +727,7 @@ const SearchAsset = () => {
               <path
                 id="Path_50"
                 fill="#fff"
-                d="M896.72 533.25h-51.17a8.4 8.4 0 01-8.13-8.64 8.4 8.4 0 018.13-8.65h51.17a8.4 8.4 0 018.14 8.65 8.4 8.4 0 01-8.14 8.64z"
+                d="M844.19 349.27H793a8.4 8.4 0 01-8.13-8.64A8.4 8.4 0 01793 332h51.17a8.4 8.4 0 018.14 8.64 8.4 8.4 0 01-8.12 8.63z"
                 data-name="Path 50"
               ></path>
               <path
@@ -765,7 +737,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M842.45 481.38L879.72 481.38"
+                d="M789.92 297.41L827.19 297.41"
                 data-name="Line 16"
               ></path>
               <path
@@ -775,7 +747,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M842.45 504.33L890.07 504.33"
+                d="M789.92 320.35L837.54 320.35"
                 data-name="Line 17"
               ></path>
               <path
@@ -785,7 +757,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M842.45 492.38L858.72 492.38"
+                d="M789.92 308.41L806.19 308.41"
                 data-name="Line 18"
               ></path>
               <path
@@ -795,7 +767,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M867.59 492.38L900.72 492.38"
+                d="M815.06 308.41L848.19 308.41"
                 data-name="Line 19"
               ></path>
               <path
@@ -805,7 +777,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M929.48 466.37L952.33 466.37"
+                d="M876.95 282.4L899.8 282.4"
                 data-name="Line 20"
               ></path>
             </g>
@@ -814,8 +786,8 @@ const SearchAsset = () => {
                 id="Rectangle_26"
                 width="126.89"
                 height="76.39"
-                x="675.04"
-                y="561.16"
+                x="622.51"
+                y="377.18"
                 fill="#bfd9ff"
                 data-name="Rectangle 26"
                 rx="7.46"
@@ -824,8 +796,8 @@ const SearchAsset = () => {
                 id="Rectangle_27"
                 width="144.64"
                 height="87.07"
-                x="666.17"
-                y="555.81"
+                x="613.64"
+                y="371.84"
                 fill="#9f18ed"
                 data-name="Rectangle 27"
                 rx="8.5"
@@ -833,8 +805,8 @@ const SearchAsset = () => {
               <g id="Group_49" data-name="Group 49">
                 <ellipse
                   id="Ellipse_9"
-                  cx="776.47"
-                  cy="599.47"
+                  cx="723.94"
+                  cy="415.49"
                   fill="#fff"
                   data-name="Ellipse 9"
                   rx="23.24"
@@ -850,8 +822,8 @@ const SearchAsset = () => {
                       <g id="Group_45" data-name="Group 45">
                         <ellipse
                           id="Ellipse_10"
-                          cx="776.66"
-                          cy="597.7"
+                          cx="724.13"
+                          cy="413.73"
                           fill="#7e2d2c"
                           data-name="Ellipse 10"
                           rx="11.08"
@@ -860,13 +832,13 @@ const SearchAsset = () => {
                         <path
                           id="Path_51"
                           fill="#40bfe0"
-                          d="M795.21 627.76c-.49-10.55-8.69-18.93-18.73-18.93s-18.25 8.39-18.74 18.93z"
+                          d="M742.68 443.78c-.49-10.54-8.69-18.92-18.73-18.92s-18.25 8.38-18.74 18.92z"
                           data-name="Path 51"
                         ></path>
                         <path
                           id="Path_52"
                           fill="#ff7657"
-                          d="M782.55 611.79a6.09 6.09 0 11-6.08-6.47 6.27 6.27 0 016.08 6.47z"
+                          d="M730 427.81a6.09 6.09 0 11-6.08-6.46 6.26 6.26 0 016.08 6.46z"
                           data-name="Path 52"
                         ></path>
                         <g id="Group_44" data-name="Group 44">
@@ -874,7 +846,7 @@ const SearchAsset = () => {
                             <path
                               id="Path_53"
                               fill="#ff7657"
-                              d="M789.07 600.51a2.49 2.49 0 11-2.49-2.64 2.56 2.56 0 012.49 2.64z"
+                              d="M736.53 416.53a2.48 2.48 0 11-2.48-2.64 2.56 2.56 0 012.48 2.64z"
                               data-name="Path 53"
                             ></path>
                           </g>
@@ -882,21 +854,21 @@ const SearchAsset = () => {
                             <path
                               id="Path_54"
                               fill="#ff7657"
-                              d="M768.38 600.51a2.48 2.48 0 11-2.48-2.64 2.56 2.56 0 012.48 2.64z"
+                              d="M715.85 416.53a2.48 2.48 0 11-2.48-2.64 2.57 2.57 0 012.48 2.64z"
                               data-name="Path 54"
                             ></path>
                           </g>
                           <path
                             id="Path_55"
                             fill="#ff9677"
-                            d="M786.23 600.51c0 5.76-4.39 10.42-9.81 10.42s-9.8-4.67-9.8-10.42 4.39-10.42 9.8-10.42 9.81 4.67 9.81 10.42z"
+                            d="M733.7 416.54c0 5.75-4.39 10.41-9.81 10.41s-9.8-4.66-9.8-10.41 4.39-10.42 9.8-10.42 9.81 4.66 9.81 10.42z"
                             data-name="Path 55"
                           ></path>
                         </g>
                         <path
                           id="Path_56"
                           fill="#7e2d2c"
-                          d="M786.79 597c-1.09 3.42-5.59 4.9-10 3.29s-7.16-5.69-6.07-9.11 5.59-4.9 10-3.29 7.17 5.64 6.07 9.11z"
+                          d="M734.26 413c-1.09 3.42-5.59 4.89-10 3.28s-7.16-5.69-6.07-9.11 5.59-4.9 10-3.29 7.17 5.67 6.07 9.12z"
                           data-name="Path 56"
                         ></path>
                       </g>
@@ -907,7 +879,7 @@ const SearchAsset = () => {
               <path
                 id="Path_57"
                 fill="#fff"
-                d="M737.89 634.4h-51.17a8.4 8.4 0 01-8.13-8.64 8.4 8.4 0 018.13-8.65h51.17a8.4 8.4 0 018.14 8.65 8.4 8.4 0 01-8.14 8.64z"
+                d="M685.36 450.42h-51.17a8.4 8.4 0 01-8.13-8.64 8.41 8.41 0 018.13-8.65h51.17a8.41 8.41 0 018.14 8.65 8.4 8.4 0 01-8.14 8.64z"
                 data-name="Path 57"
               ></path>
               <path
@@ -917,7 +889,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M683.62 582.53L720.89 582.53"
+                d="M631.09 398.56L668.36 398.56"
                 data-name="Line 21"
               ></path>
               <path
@@ -927,7 +899,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M683.62 605.48L731.24 605.48"
+                d="M631.09 421.5L678.71 421.5"
                 data-name="Line 22"
               ></path>
               <path
@@ -937,7 +909,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M683.62 593.53L699.89 593.53"
+                d="M631.09 409.56L647.36 409.56"
                 data-name="Line 23"
               ></path>
               <path
@@ -947,7 +919,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M708.76 593.53L741.89 593.53"
+                d="M656.23 409.56L689.36 409.56"
                 data-name="Line 24"
               ></path>
               <path
@@ -957,7 +929,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M770.65 567.52L793.5 567.52"
+                d="M718.12 383.55L740.97 383.55"
                 data-name="Line 25"
               ></path>
             </g>
@@ -966,8 +938,8 @@ const SearchAsset = () => {
                 id="Rectangle_28"
                 width="126.89"
                 height="76.39"
-                x="835.56"
-                y="563.61"
+                x="783.03"
+                y="379.64"
                 fill="#bfd9ff"
                 data-name="Rectangle 28"
                 rx="7.46"
@@ -976,8 +948,8 @@ const SearchAsset = () => {
                 id="Rectangle_29"
                 width="144.64"
                 height="87.07"
-                x="826.69"
-                y="558.27"
+                x="774.16"
+                y="374.29"
                 fill="#9f18ed"
                 data-name="Rectangle 29"
                 rx="8.5"
@@ -985,8 +957,8 @@ const SearchAsset = () => {
               <g id="Group_58" data-name="Group 58">
                 <ellipse
                   id="Ellipse_11"
-                  cx="936.99"
-                  cy="601.92"
+                  cx="884.46"
+                  cy="417.95"
                   fill="#fff"
                   data-name="Ellipse 11"
                   rx="23.24"
@@ -1002,8 +974,8 @@ const SearchAsset = () => {
                       <g id="Group_54" data-name="Group 54">
                         <ellipse
                           id="Ellipse_12"
-                          cx="937.18"
-                          cy="600.16"
+                          cx="884.65"
+                          cy="416.18"
                           fill="#7e2d2c"
                           data-name="Ellipse 12"
                           rx="11.08"
@@ -1012,13 +984,13 @@ const SearchAsset = () => {
                         <path
                           id="Path_58"
                           fill="#40bfe0"
-                          d="M955.73 630.21c-.5-10.54-8.7-18.92-18.74-18.92s-18.24 8.38-18.74 18.92z"
+                          d="M903.2 446.24c-.5-10.55-8.7-18.93-18.74-18.93s-18.24 8.38-18.74 18.93z"
                           data-name="Path 58"
                         ></path>
                         <path
                           id="Path_59"
                           fill="#ff7657"
-                          d="M943.07 614.24a6.09 6.09 0 11-6.08-6.46 6.28 6.28 0 016.08 6.46z"
+                          d="M890.54 430.27a6.09 6.09 0 11-6.08-6.47 6.29 6.29 0 016.08 6.47z"
                           data-name="Path 59"
                         ></path>
                         <g id="Group_53" data-name="Group 53">
@@ -1026,7 +998,7 @@ const SearchAsset = () => {
                             <path
                               id="Path_60"
                               fill="#ff7657"
-                              d="M949.58 603a2.48 2.48 0 11-2.48-2.64 2.55 2.55 0 012.48 2.64z"
+                              d="M897.05 419a2.48 2.48 0 11-2.48-2.64 2.57 2.57 0 012.48 2.64z"
                               data-name="Path 60"
                             ></path>
                           </g>
@@ -1034,21 +1006,21 @@ const SearchAsset = () => {
                             <path
                               id="Path_61"
                               fill="#ff7657"
-                              d="M928.9 603a2.48 2.48 0 11-2.48-2.64 2.56 2.56 0 012.48 2.64z"
+                              d="M876.37 419a2.48 2.48 0 11-2.48-2.64 2.57 2.57 0 012.48 2.64z"
                               data-name="Path 61"
                             ></path>
                           </g>
                           <path
                             id="Path_62"
                             fill="#ff9677"
-                            d="M946.74 603c0 5.76-4.38 10.42-9.8 10.42s-9.81-4.66-9.81-10.42 4.39-10.41 9.81-10.41 9.8 4.62 9.8 10.41z"
+                            d="M894.21 419c0 5.75-4.39 10.42-9.8 10.42s-9.81-4.67-9.81-10.42 4.39-10.42 9.81-10.42 9.8 4.65 9.8 10.42z"
                             data-name="Path 62"
                           ></path>
                         </g>
                         <path
                           id="Path_63"
                           fill="#7e2d2c"
-                          d="M947.31 599.41c-1.1 3.42-5.59 4.89-10 3.28s-7.17-5.68-6.07-9.11 5.59-4.89 10-3.28 7.16 5.7 6.07 9.11z"
+                          d="M894.78 415.43c-1.1 3.42-5.6 4.9-10 3.29s-7.17-5.69-6.07-9.11 5.59-4.9 10-3.29 7.16 5.68 6.07 9.11z"
                           data-name="Path 63"
                         ></path>
                       </g>
@@ -1059,7 +1031,7 @@ const SearchAsset = () => {
               <path
                 id="Path_64"
                 fill="#fff"
-                d="M898.41 636.86h-51.17a8.4 8.4 0 01-8.13-8.65 8.4 8.4 0 018.13-8.64h51.17a8.41 8.41 0 018.14 8.64 8.42 8.42 0 01-8.14 8.65z"
+                d="M845.88 452.88h-51.17a8.4 8.4 0 01-8.13-8.65 8.4 8.4 0 018.13-8.64h51.17a8.41 8.41 0 018.14 8.64 8.42 8.42 0 01-8.14 8.65z"
                 data-name="Path 64"
               ></path>
               <path
@@ -1069,7 +1041,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M844.14 584.99L881.41 584.99"
+                d="M791.61 401.01L828.88 401.01"
                 data-name="Line 26"
               ></path>
               <path
@@ -1079,7 +1051,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M844.14 607.94L891.76 607.94"
+                d="M791.61 423.96L839.23 423.96"
                 data-name="Line 27"
               ></path>
               <path
@@ -1089,7 +1061,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M844.14 595.99L860.41 595.99"
+                d="M791.61 412.01L807.87 412.01"
                 data-name="Line 28"
               ></path>
               <path
@@ -1099,7 +1071,7 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M869.28 595.99L902.41 595.99"
+                d="M816.75 412.01L849.88 412.01"
                 data-name="Line 29"
               ></path>
               <path
@@ -1109,32 +1081,26 @@ const SearchAsset = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="4.22"
-                d="M931.17 569.98L954.02 569.98"
+                d="M878.64 386L901.49 386"
                 data-name="Line 30"
               ></path>
             </g>
           </g>
         </g>
         <g id="character">
-          <path
-            id="Path_65"
-            fill="#ecdeff"
-            d="M653.14 763.61c0 3-25.83 5.52-57.68 5.52s-57.68-2.47-57.68-5.52 25.82-5.52 57.68-5.52 57.68 2.48 57.68 5.52z"
-            data-name="Path 65"
-          ></path>
           <g id="Group_69" data-name="Group 69">
             <g id="Group_67" data-name="Group 67">
               <path
                 id="Path_66"
                 fill="#d6957b"
-                d="M550.64 542a9.82 9.82 0 00-.29-4.66 7.68 7.68 0 00-4.21-4.29 12.48 12.48 0 00-6.07-.87 7.51 7.51 0 00-2.39.51 8.63 8.63 0 00-2.76 2.14 7.52 7.52 0 00-1.7 2.33 6.57 6.57 0 00-.42 2.15 15.61 15.61 0 001.6 7.8 7.2 7.2 0 001.91 2.56 11.14 11.14 0 008 1.37c3.58-1.17 5.85-5.52 6.33-9.04z"
+                d="M498.11 358.05a9.89 9.89 0 00-.29-4.65 7.67 7.67 0 00-4.21-4.3 12.72 12.72 0 00-6.07-.87 7.51 7.51 0 00-2.39.51 8.63 8.63 0 00-2.76 2.14 7.52 7.52 0 00-1.7 2.33 6.62 6.62 0 00-.42 2.15 15.62 15.62 0 001.6 7.81 7.38 7.38 0 001.91 2.56 11.25 11.25 0 008 1.37c3.58-1.2 5.85-5.55 6.33-9.05z"
                 data-name="Path 66"
               ></path>
               <g id="Group_62" data-name="Group 62">
                 <circle
                   id="Ellipse_13"
-                  cx="536.19"
-                  cy="512.28"
+                  cx="483.65"
+                  cy="328.31"
                   r="13.77"
                   fill="#fff"
                   data-name="Ellipse 13"
@@ -1144,7 +1110,7 @@ const SearchAsset = () => {
                 <path
                   id="Path_67"
                   fill="#fff"
-                  d="M549.66 509.41a14.87 14.87 0 00-.73-2.35l-26.07 1.75a13.63 13.63 0 00-.14 6.35c0 .16.07.32.11.49l27.09-2.32a14 14 0 00-.26-3.92z"
+                  d="M497.13 325.43a14.75 14.75 0 00-.73-2.34l-26.07 1.74a13.63 13.63 0 00-.14 6.35c0 .17.07.33.11.49l27.09-2.31a14 14 0 00-.26-3.93z"
                   data-name="Path 67"
                   opacity="0.6"
                   style={{ isolation: "isolate" }}
@@ -1152,7 +1118,7 @@ const SearchAsset = () => {
                 <path
                   id="Path_68"
                   fill="#fff"
-                  d="M549.58 515.48l-25.79 2.81a13.93 13.93 0 00.94 1.64l24.18-2.38a13.51 13.51 0 00.67-2.07z"
+                  d="M497.05 331.5l-25.79 2.81a14.92 14.92 0 00.94 1.65l24.18-2.39a13.51 13.51 0 00.67-2.07z"
                   data-name="Path 68"
                   opacity="0.6"
                   style={{ isolation: "isolate" }}
@@ -1160,45 +1126,45 @@ const SearchAsset = () => {
                 <path
                   id="Path_69"
                   fill="#3d2b4f"
-                  d="M539.31 526.92a15 15 0 1111.52-17.76 15 15 0 01-11.52 17.76zM533.56 500a12.58 12.58 0 1014.93 9.68 12.6 12.6 0 00-14.93-9.68z"
+                  d="M486.78 343a15 15 0 1111.52-17.77A15 15 0 01486.78 343zM481 316a12.58 12.58 0 1015 9.68 12.59 12.59 0 00-15-9.68z"
                   data-name="Path 69"
                 ></path>
                 <path
                   id="Path_70"
                   fill="#3d2b4f"
-                  d="M540.23 525.5l8 32.73a2.15 2.15 0 01-4.18 1v-.12L537.89 526a1.2 1.2 0 012.34-.49z"
+                  d="M487.7 341.53l8 32.73a2.15 2.15 0 01-4.18 1v-.12L485.36 342a1.2 1.2 0 012.34-.5z"
                   data-name="Path 70"
                 ></path>
               </g>
               <path
                 id="Path_71"
                 fill="#eeb399"
-                d="M530.51 542c1-4.32 4.71-8.23 9.15-8.35 1.69 0 3.72.84 3.81 2.53a2.82 2.82 0 01-1.48 2.42 8.37 8.37 0 01-2.84.87c2.05.82 3 3.23 3.15 5.43a10.42 10.42 0 01-2.53 8c-1.69 1.77-6.17 3.7-7.93 1.17-2.03-2.97-2.13-8.78-1.33-12.07z"
+                d="M478 358c1-4.32 4.71-8.23 9.15-8.35 1.69 0 3.72.84 3.81 2.53a2.8 2.8 0 01-1.49 2.42 8 8 0 01-2.83.87c2.05.83 3 3.24 3.15 5.44a10.41 10.41 0 01-2.53 8c-1.69 1.77-6.17 3.71-7.93 1.18-2.05-2.97-2.15-8.77-1.33-12.09z"
                 data-name="Path 71"
               ></path>
               <g id="Group_66" data-name="Group 66">
                 <path
                   id="Path_72"
                   fill="#171e26"
-                  d="M598.08 759v4s20.22 2 34 0l-5-4z"
+                  d="M545.55 575v4s20.22 2 34 0l-5-4z"
                   data-name="Path 72"
                 ></path>
                 <path
                   id="Path_73"
                   fill="#171e26"
-                  d="M557.9 759v4s20.23 2 34 0l-5-4z"
+                  d="M505.37 575v4s20.23 2 34 0l-5-4z"
                   data-name="Path 73"
                 ></path>
                 <path
                   id="Path_74"
                   fill="#e54c64"
-                  d="M581 510.68a10.17 10.17 0 00-13.64 4.54L551 548l-1-2.11a35.18 35.18 0 00-18.37 8.7l9.94 21a10.16 10.16 0 0018.27.2l25.74-51.47a10.17 10.17 0 00-4.58-13.64z"
+                  d="M528.49 326.71a10.17 10.17 0 00-13.64 4.53L498.45 364l-1-2.11a35.17 35.17 0 00-18.37 8.69l9.94 21a10.16 10.16 0 0018.27.19L533 340.34a10.16 10.16 0 00-4.51-13.63z"
                   data-name="Path 74"
                 ></path>
                 <path
                   id="Path_75"
                   fill="#99293f"
-                  d="M581.38 509.89c-5-2.51-10.51-.17-13 4.85l-3.4 7c4.29 13.27 3.39 29.66 3.21 37.23l17.75-35.49a10.16 10.16 0 00-4.56-13.59z"
+                  d="M528.85 325.91c-5-2.51-10.51-.17-13 4.85l-3.4 7c4.29 13.27 3.39 29.67 3.21 37.24l17.75-35.5a10.16 10.16 0 00-4.56-13.59z"
                   data-name="Path 75"
                 ></path>
                 <g id="Group_64" data-name="Group 64">
@@ -1206,7 +1172,7 @@ const SearchAsset = () => {
                     <path
                       id="Path_76"
                       fill="#eeb399"
-                      d="M582.53 487.1l.92 17.64 8.52 7 7.64-5.22-.55-10.61z"
+                      d="M530 303.12l.92 17.65 8.51 7 7.65-5.23-.55-10.61z"
                       data-name="Path 76"
                     ></path>
                   </g>
@@ -1214,37 +1180,37 @@ const SearchAsset = () => {
                     id="Rectangle_30"
                     width="29.99"
                     height="42.89"
-                    x="582.23"
-                    y="459.55"
+                    x="529.7"
+                    y="275.57"
                     fill="#eeb399"
                     data-name="Rectangle 30"
                     rx="4.47"
-                    transform="translate(-24.24 31.75)"
+                    transform="rotate(-2.99 543.814 296.584)"
                   ></rect>
                   <path
                     id="Path_77"
                     fill="#171c27"
-                    d="M597.36 494.29c2.16-2.48 3-5.79 3.82-9a3.3 3.3 0 00.12-1.59 3.9 3.9 0 00-.84-1.34 5.81 5.81 0 01-1.52-3.46 2.89 2.89 0 012-2.93c1.48-.32 2.91 1 3.29 2.46a9 9 0 01-.41 4.46c1.5.65 3-1.09 3.18-2.72s-.48-3.25-.31-4.87c.27-2.63 2.47-4.56 4-6.68s2.43-5.49.36-7.14a17.69 17.69 0 00-3-1.36c-1.64-.86-2.64-2.6-4.2-3.6a9.32 9.32 0 00-3.67-1.18c-7.71-1.15-16.56 1.6-20.21 8.49-2.75 5.2-2.05 11.47-1.28 17.3.65 4.87.59 12.66 5.49 15.27 4.26 2.22 10.02 1.5 13.18-2.11z"
+                    d="M544.83 310.31c2.16-2.48 3-5.79 3.81-9a3.18 3.18 0 00.13-1.59 3.85 3.85 0 00-.84-1.33 5.87 5.87 0 01-1.52-3.47 2.87 2.87 0 012-2.92c1.48-.32 2.91 1 3.29 2.45a9 9 0 01-.41 4.46c1.49.65 3-1.09 3.18-2.72s-.48-3.24-.31-4.87c.27-2.63 2.47-4.55 4-6.67s2.43-5.5.36-7.14a17.73 17.73 0 00-3-1.37c-1.64-.86-2.64-2.6-4.2-3.59a9.33 9.33 0 00-3.67-1.19c-7.71-1.15-16.56 1.61-20.21 8.5-2.75 5.2-2 11.47-1.28 17.29.65 4.88.59 12.67 5.49 15.27 4.26 2.22 10.02 1.51 13.18-2.11z"
                     data-name="Path 77"
                   ></path>
                 </g>
                 <path
                   id="Path_78"
                   fill="#171e26"
-                  d="M626.63 585.58l.49 173.42s-18.86 2.17-29 0l-3-148-7.15 149s-18.28 1.18-30 0l12.19-169.39z"
+                  d="M574.1 401.61l.49 173.39s-18.86 2.16-29.05 0l-3-148-7.15 149s-18.28 1.18-30 0l12.19-169.38z"
                   data-name="Path 78"
                 ></path>
                 <path
                   id="Path_79"
                   fill="#e54c64"
-                  d="M625.72 521.39c.24 1.05.42 2.11.57 3.17.47 3.28 1 6.49 1.27 9.8.7 7.43 1.28 14.87 1.58 22.32a228.9 228.9 0 01-.3 25.93c-.58 7.94-3.78 9.95-11.26 12.51-6.46 2.21-13.46 3-20.25 3.27-5.7.23-24.73.09-27.23-7.85-.82-2.58 2-8.48 2.46-11.25a75 75 0 001-11.49 73.73 73.73 0 00-3.06-22c-3-10-8.9-19.26-3.8-29.4 5.19-10.31 17.22-13.35 27.92-13.49A50.81 50.81 0 01611.1 505a18.19 18.19 0 016.93 3.77 26.06 26.06 0 015.43 6.45 23.09 23.09 0 012.26 6.17z"
+                  d="M573.19 337.41c.24 1 .42 2.11.57 3.18.47 3.28 1 6.49 1.27 9.79.7 7.43 1.28 14.87 1.58 22.32a228.9 228.9 0 01-.3 25.93c-.58 7.94-3.78 9.95-11.26 12.52-6.46 2.21-13.46 3-20.25 3.27-5.7.22-24.73.09-27.23-7.86-.82-2.58 2-8.48 2.46-11.25a75 75 0 001-11.49 73.62 73.62 0 00-3.06-22c-3-10.06-8.9-19.27-3.8-29.4 5.19-10.32 17.22-13.35 27.92-13.5a50.81 50.81 0 0116.48 2.08 18.33 18.33 0 016.93 3.77 25.92 25.92 0 015.43 6.46 22.9 22.9 0 012.26 6.18z"
                   data-name="Path 79"
                 ></path>
                 <g id="Group_65" data-name="Group 65">
                   <path
                     id="Path_80"
                     fill="#7298e2"
-                    d="M559.9 550.65l.07-.13a.15.15 0 00-.07.13z"
+                    d="M507.37 366.68l.07-.14a.15.15 0 00-.07.14z"
                     data-name="Path 80"
                   ></path>
                 </g>
@@ -1255,13 +1221,13 @@ const SearchAsset = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0.57"
-                  d="M577.86 602.27s12.82 14 35.83 7.67"
+                  d="M525.33 418.3s12.82 13.94 35.83 7.67"
                   data-name="Path 81"
                 ></path>
                 <path
                   id="Path_82"
                   fill="#e54c64"
-                  d="M665.91 513.21L644.2 529l-26.45-20.43a10.16 10.16 0 10-12.52 16l.09.07 32.47 25.08a10.16 10.16 0 0012.18.19l27.87-20.2c-1.18-9.15-11.93-16.5-11.93-16.5z"
+                  d="M613.38 329.24L591.67 345l-26.45-20.43a10.16 10.16 0 10-12.52 16l.09.08 32.47 25.08a10.17 10.17 0 0012.18.18l27.87-20.19c-1.18-9.14-11.93-16.48-11.93-16.48z"
                   data-name="Path 82"
                 ></path>
                 <path
@@ -1271,7 +1237,7 @@ const SearchAsset = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0.28"
-                  d="M551.16 547.66s-4.7 7.67-4.11 14.19"
+                  d="M498.63 363.69s-4.7 7.66-4.11 14.18"
                   data-name="Path 83"
                 ></path>
                 <path
@@ -1281,7 +1247,7 @@ const SearchAsset = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0.57"
-                  d="M598.46 749.93s15.42 2.58 27.82 0"
+                  d="M545.93 566s15.42 2.59 27.82 0"
                   data-name="Path 84"
                 ></path>
                 <path
@@ -1291,26 +1257,26 @@ const SearchAsset = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="0.57"
-                  d="M559.25 749.93s18.09 2.59 28.34 0"
+                  d="M506.72 566s18.09 2.59 28.34 0"
                   data-name="Path 85"
                 ></path>
                 <path
                   id="Path_86"
                   fill="#eeb399"
-                  d="M674.65 507a5 5 0 012.43-.85 1.82 1.82 0 011.86 1.49c.08 1.33-1.68 2-2.29 3.15a3 3 0 00.32 2.85 22.28 22.28 0 001.92 2.3 10.33 10.33 0 01-.36 13.19 3.54 3.54 0 01-2.3 1.31 4.32 4.32 0 01-2.94-1.57 40.68 40.68 0 01-6.16-6.82c-1.53-2.31-3.74-6.37-1.5-8.69 2.44-2.57 6-4.66 9.02-6.36z"
+                  d="M622.12 323a4.84 4.84 0 012.43-.85 1.81 1.81 0 011.86 1.48c.08 1.34-1.68 2-2.29 3.15a3 3 0 00.32 2.85 21.38 21.38 0 001.92 2.31 10.33 10.33 0 01-.36 13.19 3.62 3.62 0 01-2.3 1.31 4.33 4.33 0 01-2.94-1.58 40.3 40.3 0 01-6.16-6.86c-1.53-2.3-3.74-6.37-1.5-8.69 2.44-2.5 6-4.59 9.02-6.31z"
                   data-name="Path 86"
                 ></path>
                 <path
                   id="Path_87"
                   fill="#171c27"
-                  d="M603.14 491.71a21.43 21.43 0 008 9.45c1.17.69 2.64 1.67 2.32 3a2.61 2.61 0 01-1.13 1.4c-3.37 2.45-7.78 2.8-11.93 3.07l-9.5.61c-7.55.49-15.38.94-22.45-1.75a2 2 0 01-1-.67c-.54-.84.32-1.86 1-2.54a23.93 23.93 0 006.5-12.22c1.57-6.83.58-13.83 1.87-20.65.72-3.78 2.47-7.81 6-9.29a8.48 8.48 0 017.39.7c2.94 1.71 4.12 4.73 6.21 7.16a13.75 13.75 0 013.19 9.26c0 4.12 1.78 8.76 3.53 12.47z"
+                  d="M550.61 307.73a21.43 21.43 0 008 9.45c1.17.7 2.64 1.67 2.32 3a2.57 2.57 0 01-1.13 1.4c-3.37 2.45-7.78 2.8-11.93 3.07l-9.5.62c-7.55.49-15.38.94-22.45-1.76a1.91 1.91 0 01-1-.67c-.54-.84.32-1.85 1.05-2.53a24 24 0 006.5-12.23c1.57-6.83.58-13.83 1.87-20.65.72-3.78 2.47-7.8 6-9.28a8.48 8.48 0 017.39.69c2.94 1.71 4.12 4.73 6.21 7.16a13.84 13.84 0 013.19 9.26c-.05 4.12 1.73 8.74 3.48 12.47z"
                   data-name="Path 87"
                 ></path>
               </g>
               <path
                 id="Path_88"
                 fill="#99293f"
-                d="M628.26 542.32l-14.57-11.25s12 14.66 15.36 23.68c.01.01-.05-5.57-.79-12.43z"
+                d="M575.73 358.34l-14.57-11.25s12 14.67 15.36 23.69c.01 0-.04-5.57-.79-12.44z"
                 data-name="Path 88"
               ></path>
             </g>
@@ -1324,217 +1290,217 @@ const SearchAsset = () => {
             >
               <path
                 id="Path_89"
-                d="M579.53 582.17A6.92 6.92 0 01579 586"
+                d="M527 398.2a6.93 6.93 0 01-.55 3.81"
                 data-name="Path 89"
               ></path>
               <path
                 id="Path_90"
-                d="M579.59 573.62a2.86 2.86 0 011.06 3.28"
+                d="M527.06 389.65a2.84 2.84 0 011.06 3.27"
                 data-name="Path 90"
               ></path>
               <path
                 id="Path_91"
-                d="M592.1 569.91l-.29 1.75"
+                d="M539.57 385.93l-.29 1.75"
                 data-name="Path 91"
               ></path>
               <path
                 id="Path_92"
-                d="M584.21 560.56l-1.76 2.33"
+                d="M531.68 376.58l-1.76 2.34"
                 data-name="Path 92"
               ></path>
               <path
                 id="Path_93"
-                d="M599.67 560a18.5 18.5 0 012.43 4.34"
+                d="M547.14 376a18.5 18.5 0 012.43 4.34"
                 data-name="Path 93"
               ></path>
               <path
                 id="Path_94"
-                d="M590.66 579.55l-1.14 2.94"
+                d="M538.13 395.58l-1.13 2.93"
                 data-name="Path 94"
               ></path>
               <path
                 id="Path_95"
-                d="M556.2 569.33l-1.2 2.92"
+                d="M503.67 385.35l-1.17 2.93"
                 data-name="Path 95"
               ></path>
               <path
                 id="Path_96"
-                d="M543 556.48a8.76 8.76 0 00-2.64 2.61"
+                d="M490.5 372.5a8.91 8.91 0 00-2.64 2.62"
                 data-name="Path 96"
               ></path>
               <path
                 id="Path_97"
-                d="M546 567.57v4.67"
+                d="M493.42 383.59v4.68"
                 data-name="Path 97"
               ></path>
               <path
                 id="Path_98"
-                d="M556.19 556.17l.6 2.34"
+                d="M503.66 372.19l.6 2.34"
                 data-name="Path 98"
               ></path>
               <path
                 id="Path_99"
-                d="M561.13 542.46c.38.68.77 1.36 1.15 2"
+                d="M508.59 358.48l1.16 2"
                 data-name="Path 99"
               ></path>
               <path
                 id="Path_100"
-                d="M563.46 552.38a9.25 9.25 0 01-.54 4.39"
+                d="M510.93 368.41a9.21 9.21 0 01-.54 4.38"
                 data-name="Path 100"
               ></path>
               <path
                 id="Path_101"
-                d="M570.78 521.43a16.76 16.76 0 013.48-2.38"
+                d="M518.25 337.45a16.76 16.76 0 013.48-2.38"
                 data-name="Path 101"
               ></path>
               <path
                 id="Path_102"
-                d="M588 516.76a7.21 7.21 0 00-1.23 2.61"
+                d="M535.49 332.78a7.28 7.28 0 00-1.23 2.61"
                 data-name="Path 102"
               ></path>
               <path
                 id="Path_103"
-                d="M576 529.6c-.19.87-.39 1.75-.58 2.62"
+                d="M523.48 345.62c-.19.88-.39 1.75-.58 2.63"
                 data-name="Path 103"
               ></path>
               <path
                 id="Path_104"
-                d="M589.19 530.47a8.46 8.46 0 001.12 3.24"
+                d="M536.66 346.5a8.47 8.47 0 001.12 3.23"
                 data-name="Path 104"
               ></path>
               <path
                 id="Path_105"
-                d="M605.81 541.86a11.28 11.28 0 01-1.12 3.53"
+                d="M553.28 357.89a11.14 11.14 0 01-1.12 3.52"
                 data-name="Path 105"
               ></path>
               <path
                 id="Path_106"
-                d="M581.29 543.33l-.87 3.79"
+                d="M528.76 359.35l-.87 3.8"
                 data-name="Path 106"
               ></path>
               <path
                 id="Path_107"
-                d="M594.73 546.54v2.34"
+                d="M542.2 362.56v2.34"
                 data-name="Path 107"
               ></path>
               <path
                 id="Path_108"
-                d="M601.74 522.3l.58 2.33"
+                d="M549.21 338.32l.58 2.34"
                 data-name="Path 108"
               ></path>
               <path
                 id="Path_109"
-                d="M612.53 516.76l1.73 2.07"
+                d="M560 332.79l1.73 2.06"
                 data-name="Path 109"
               ></path>
               <path
                 id="Path_110"
-                d="M615.48 558.79l3.82 2.59"
+                d="M563 374.81l3.82 2.59"
                 data-name="Path 110"
               ></path>
               <path
                 id="Path_111"
-                d="M610.21 574.29v2.63"
+                d="M557.68 390.31v2.63"
                 data-name="Path 111"
               ></path>
               <path
                 id="Path_112"
-                d="M599.94 583.33c-.2 1-.41 1.95-.61 2.92"
+                d="M547.41 399.36c-.2 1-.41 1.94-.61 2.91"
                 data-name="Path 112"
               ></path>
               <path
                 id="Path_113"
-                d="M618.09 547.72l3.2 1.77"
+                d="M565.56 363.74l3.2 1.77"
                 data-name="Path 113"
               ></path>
               <path
                 id="Path_114"
-                d="M609 555.05l3.19 2.07"
+                d="M556.49 371.07l3.19 2.07"
                 data-name="Path 114"
               ></path>
               <path
                 id="Path_115"
-                d="M620.11 580.42l-.3 3.21"
+                d="M567.58 396.44l-.3 3.21"
                 data-name="Path 115"
               ></path>
               <path
                 id="Path_116"
-                d="M609.05 590.66a5.33 5.33 0 00-.92 2.9"
+                d="M556.52 406.68a5.39 5.39 0 00-.92 2.91"
                 data-name="Path 116"
               ></path>
               <path
                 id="Path_117"
-                d="M619.57 527.54a9.67 9.67 0 002.86 2.43"
+                d="M567 343.56a9.67 9.67 0 002.9 2.44"
                 data-name="Path 117"
               ></path>
               <path
                 id="Path_118"
-                d="M630.33 523.47l.29 2.34"
+                d="M577.8 339.49l.29 2.34"
                 data-name="Path 118"
               ></path>
               <path
                 id="Path_119"
-                d="M635.62 537.19l-.88 2.34"
+                d="M583.09 353.22l-.88 2.33"
                 data-name="Path 119"
               ></path>
               <path
                 id="Path_120"
-                d="M645.57 538.65a5.31 5.31 0 001.1 2.38"
+                d="M593 354.67a5.26 5.26 0 001.1 2.38"
                 data-name="Path 120"
               ></path>
               <path
                 id="Path_121"
-                d="M654.31 527.26c.49.59 1 1.17 1.46 1.76"
+                d="M601.78 343.29c.49.58 1 1.16 1.46 1.75"
                 data-name="Path 121"
               ></path>
               <path
                 id="Path_122"
-                d="M666 530.18l.3 2.63"
+                d="M613.46 346.21l.3 2.63"
                 data-name="Path 122"
               ></path>
               <path
                 id="Path_123"
-                d="M654.32 533.1c.4 1.17.8 2.33 1.19 3.5"
+                d="M601.79 349.12c.4 1.17.8 2.34 1.19 3.5"
                 data-name="Path 123"
               ></path>
               <path
                 id="Path_124"
-                d="M641.77 547.73l-1.17 1.17"
+                d="M589.24 363.75l-1.17 1.17"
                 data-name="Path 124"
               ></path>
               <path
                 id="Path_125"
-                d="M637.67 529.29l2.63 1.16"
+                d="M585.14 345.31l2.63 1.16"
                 data-name="Path 125"
               ></path>
               <path
                 id="Path_126"
-                d="M607.3 532.21c.69 1 1.38 1.94 2.06 2.92"
+                d="M554.77 348.24l2.06 2.91"
                 data-name="Path 126"
               ></path>
               <path
                 id="Path_127"
-                d="M586.84 592.4l-1.46 1.16"
+                d="M534.31 408.42l-1.46 1.17"
                 data-name="Path 127"
               ></path>
               <path
                 id="Path_128"
-                d="M614 567.25a6 6 0 004.06 1.52"
+                d="M561.5 383.27a6 6 0 004.06 1.52"
                 data-name="Path 128"
               ></path>
               <path
                 id="Path_129"
-                d="M625.08 569.91a7.41 7.41 0 01-.5 4.11"
+                d="M572.55 385.93a7.46 7.46 0 01-.5 4.12"
                 data-name="Path 129"
               ></path>
               <path
                 id="Path_130"
-                d="M572 513.26a6 6 0 012.29-1.57"
+                d="M519.43 329.28a5.92 5.92 0 012.29-1.56"
                 data-name="Path 130"
               ></path>
               <path
                 id="Path_131"
-                d="M560.23 534.54l2.31-2.65"
+                d="M507.7 350.56l2.31-2.65"
                 data-name="Path 131"
               ></path>
             </g>
@@ -1544,7 +1510,7 @@ const SearchAsset = () => {
           <path
             id="Path_132"
             fill="#7bb3e8"
-            d="M957.77 664c-.37-3.31-.49-7 1.54-9.6 3.13-4 9.87-3.28 13.61.2s5.26 8.67 6.61 13.59c-7.86-24.21-15.34-52.22-1.82-73.79 1.56-2.5 3.53-4.95 6.28-6 4.18-1.6 9.06.59 11.87 4.07s4 8 4.9 12.35a178.43 178.43 0 013.84 40.38 39.86 39.86 0 019.82-32.47l2.73 7.67a106.2 106.2 0 015.76-63c3.7-8.85 10.46-18.32 20.05-18.15 8 .15 14.3 7.28 17.35 14.7 6.94 16.86 2.65 36.21-4 53.17a201.49 201.49 0 01-27.14 48.12c2.84-5.53 11.07-6.7 16.15-3.12s7 10.53 5.88 16.65-4.78 11.47-9 16a67.29 67.29 0 01-32 19.26c-30.63 8.2-49.2-11.97-52.43-40.03z"
+            d="M905.24 480.05c-.37-3.3-.49-7 1.54-9.6 3.13-4 9.87-3.27 13.61.2s5.26 8.67 6.61 13.59c-7.87-24.21-15.34-52.22-1.82-73.79 1.56-2.5 3.53-4.95 6.28-6 4.18-1.6 9.06.6 11.87 4.08s4 8 4.9 12.35a178.37 178.37 0 013.84 40.38 39.88 39.88 0 019.82-32.48l2.73 7.67a106.21 106.21 0 015.76-63c3.7-8.84 10.46-18.32 20-18.14 8 .15 14.3 7.27 17.35 14.7 6.94 16.85 2.65 36.21-4 53.16a201.3 201.3 0 01-27.14 48.12c2.84-5.52 11.07-6.69 16.15-3.11s7 10.53 5.88 16.64-4.78 11.48-9 16a67.22 67.22 0 01-32 19.26c-30.62 8.17-49.2-11.99-52.38-40.03z"
             data-name="Path 132"
           ></path>
           <path
@@ -1554,7 +1520,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M987.65 698.27s12.64-14.45 25.92-37.6c16.3-28.43 33.54-70.21 28.47-113.89"
+            d="M935.12 514.3s12.64-14.45 25.91-37.61c16.31-28.43 33.55-70.21 28.48-113.89"
             data-name="Path 133"
           ></path>
           <path
@@ -1564,7 +1530,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M1027.64 566.13s4.4 21.52 11.6 29.83"
+            d="M975.11 382.15s4.4 21.53 11.6 29.83"
             data-name="Path 134"
           ></path>
           <path
@@ -1574,7 +1540,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M1033.2 617.66s7.18 2.62 14-5.93"
+            d="M980.67 433.69s7.18 2.61 14-5.94"
             data-name="Path 135"
           ></path>
           <path
@@ -1584,7 +1550,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M985.51 598.76s-3.08 42.08 18 78.11"
+            d="M933 414.78s-3.08 42.08 18 78.11"
             data-name="Path 136"
           ></path>
           <path
@@ -1594,7 +1560,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M995.87 687.83s23.5-.22 46.14-23.57"
+            d="M943.34 503.85s23.5-.21 46.14-23.57"
             data-name="Path 137"
           ></path>
           <path
@@ -1604,7 +1570,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M964.12 658s9.74 28.6 26.74 36.36"
+            d="M911.59 474s9.74 28.61 26.74 36.36"
             data-name="Path 138"
           ></path>
           <path
@@ -1614,7 +1580,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M988.57 636.4s-10.64-4.52-13.37-23.13"
+            d="M936 452.42s-10.64-4.52-13.37-23.13"
             data-name="Path 139"
           ></path>
           <path
@@ -1624,7 +1590,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M1019.65 680.91s2.76 7.23 15.77 1.32"
+            d="M967.12 496.94s2.76 7.23 15.77 1.31"
             data-name="Path 140"
           ></path>
           <path
@@ -1634,7 +1600,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M1019 650.74s-7.61-12.87-7.23-27.76"
+            d="M966.45 466.76s-7.61-12.87-7.23-27.76"
             data-name="Path 141"
           ></path>
         </g>
@@ -1643,32 +1609,32 @@ const SearchAsset = () => {
             <path
               id="Path_142"
               fill="#a7a9ac"
-              d="M349.24 441.19l7.45 13.57 16.73-9.46 9.07 9.46-1.09-12 18.07-7.53-32.29-32.64z"
+              d="M296.71 257.21l7.45 13.58 16.73-9.47 9.07 9.47-1.09-12.05 18.07-7.53-32.29-32.63z"
               data-name="Path 142"
             ></path>
             <g id="Group_72" data-name="Group 72">
               <path
                 id="Path_143"
                 fill="#fff"
-                d="M385 426.14v16.58l-14.23-15.05z"
+                d="M332.45 242.17v16.58l-14.23-15.06z"
                 data-name="Path 143"
               ></path>
               <path
                 id="Path_144"
                 fill="#fff"
-                d="M381.41 427.66l-56-45.14 26.7 52.67z"
+                d="M328.88 243.69l-56-45.15 26.7 52.67z"
                 data-name="Path 144"
               ></path>
               <path
                 id="Path_145"
                 fill="#fff"
-                d="M325.38 382.52l79.1 35.32-23.07 9.82z"
+                d="M272.85 198.54L352 233.86l-23.07 9.83z"
                 data-name="Path 145"
               ></path>
               <path
                 id="Path_146"
                 fill="#662d91"
-                d="M381.41 427.66l3.57-1.52-59.6-43.62z"
+                d="M328.88 243.69l3.57-1.52-59.6-43.63z"
                 data-name="Path 146"
               ></path>
             </g>
@@ -1680,7 +1646,7 @@ const SearchAsset = () => {
             strokeDasharray="0 0 2.84"
             strokeLinecap="round"
             strokeLinejoin="round"
-            d="M388.18 448.38c21.65 18.8 55.76 21.48 80.08 6.3C476.54 449.52 484 442 486 432.43s-3.11-20.93-12.59-23.25c-11.65-2.84-22.83 10.4-20.63 22.19s14.08 19.95 26 21.18 23.74-3.11 34.43-8.55c15.15-7.71 29.37-18 39-32.07s14.08-32.16 9.28-48.47"
+            d="M335.65 264.4c21.65 18.8 55.76 21.49 80.08 6.31 8.28-5.17 15.74-12.71 17.77-22.25s-3.11-20.94-12.59-23.25c-11.65-2.85-22.83 10.39-20.63 22.18s14.08 20 26 21.19 23.72-3.12 34.44-8.58c15.15-7.7 29.37-18 39-32.07s14.08-32.16 9.28-48.47"
             data-name="Path 147"
           ></path>
         </g>
@@ -1688,7 +1654,7 @@ const SearchAsset = () => {
           <path
             id="Path_9"
             fill="#7bb3e8"
-            d="M409.52 664c.38-3.31.49-7-1.54-9.6-3.12-4-9.87-3.28-13.61.2s-5.25 8.67-6.61 13.59c7.87-24.21 15.35-52.22 1.82-73.79-1.56-2.5-3.52-4.95-6.28-6-4.18-1.6-9.06.59-11.86 4.07s-4 8-4.91 12.35a177.85 177.85 0 00-3.83 40.38 39.86 39.86 0 00-9.83-32.47l-2.73 7.67a106.12 106.12 0 00-5.76-63c-3.7-8.85-10.46-18.32-20.05-18.15-8 .15-14.29 7.28-17.35 14.7-6.93 16.86-2.64 36.21 4 53.17a201.19 201.19 0 0027.15 48.12c-2.85-5.53-11.08-6.7-16.16-3.12s-7 10.53-5.87 16.65 4.77 11.47 9 16a67.29 67.29 0 0032 19.26c30.62 8.2 49.24-11.97 52.42-40.03z"
+            d="M357 480.05c.37-3.3.49-7-1.54-9.6-3.12-4-9.87-3.27-13.61.2s-5.25 8.67-6.61 13.59c7.87-24.21 15.35-52.22 1.82-73.79-1.56-2.5-3.52-4.95-6.28-6-4.18-1.6-9.06.6-11.86 4.08s-4 8-4.91 12.35a177.8 177.8 0 00-3.83 40.38 39.88 39.88 0 00-9.83-32.48l-2.73 7.67a106.13 106.13 0 00-5.76-63c-3.7-8.84-10.46-18.32-20.05-18.14-8 .15-14.29 7.27-17.35 14.7-6.93 16.85-2.64 36.21 4.05 53.16a201 201 0 0027.15 48.12c-2.85-5.52-11.08-6.69-16.16-3.11s-7 10.53-5.87 16.64 4.77 11.48 9 16a67.22 67.22 0 0032 19.26c30.56 8.17 49.18-11.99 52.37-40.03z"
             data-name="Path 9"
           ></path>
           <path
@@ -1698,7 +1664,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M379.64 698.27s-63.53-72.65-54.39-151.49"
+            d="M327.11 514.3s-63.53-72.65-54.39-151.5"
             data-name="Path 10"
           ></path>
           <path
@@ -1708,7 +1674,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M339.66 566.13s-4.4 21.52-11.61 29.83"
+            d="M287.13 382.15s-4.4 21.53-11.61 29.83"
             data-name="Path 11"
           ></path>
           <path
@@ -1718,7 +1684,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M334.09 617.66s-7.17 2.62-13.94-5.93"
+            d="M281.56 433.69s-7.17 2.61-13.94-5.94"
             data-name="Path 12"
           ></path>
           <path
@@ -1728,7 +1694,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M381.78 598.76s3.09 42.08-18 78.11"
+            d="M329.25 414.78s3.09 42.08-18 78.11"
             data-name="Path 13"
           ></path>
           <path
@@ -1738,7 +1704,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M371.42 687.83s-23.49-.22-46.13-23.57"
+            d="M318.89 503.85s-23.5-.21-46.13-23.57"
             data-name="Path 14"
           ></path>
           <path
@@ -1748,7 +1714,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M403.18 658s-9.74 28.6-26.75 36.36"
+            d="M350.65 474s-9.75 28.61-26.75 36.36"
             data-name="Path 15"
           ></path>
           <path
@@ -1758,7 +1724,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M378.72 636.4s10.64-4.52 13.37-23.13"
+            d="M326.19 452.42s10.64-4.52 13.37-23.13"
             data-name="Path 16"
           ></path>
           <path
@@ -1768,7 +1734,7 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M347.64 680.91s-2.76 7.23-15.76 1.32"
+            d="M295.11 496.94s-2.76 7.23-15.77 1.31"
             data-name="Path 17"
           ></path>
           <path
@@ -1778,52 +1744,46 @@ const SearchAsset = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="0.85"
-            d="M348.32 650.74s7.6-12.87 7.22-27.76"
+            d="M295.79 466.76s7.6-12.87 7.22-27.76"
             data-name="Path 18"
           ></path>
         </g>
         <g id="explorer">
-          <path
-            id="Path_158"
-            fill="#ecdeff"
-            d="M995.89 755.87c0 3.06-52.14 5.54-116.46 5.54S763 758.93 763 755.87s52.14-5.54 116.46-5.54 116.43 2.48 116.43 5.54z"
-            data-name="Path 158"
-          ></path>
           <g id="Group_80" data-name="Group 80">
             <path
               id="Path_164"
               fill="#171c27"
-              d="M821.75 756.26v5.34s-22.82 4.14-43.47 0l9.41-5.34z"
+              d="M765 574.37l-.2 5.33s-22.95 3.3-43.44-1.58l9.6-5z"
               data-name="Path 164"
             ></path>
             <path
               id="Path_165"
               fill="#171c27"
-              d="M966.58 724.41h6.22s4 20.77 0 29.75a9.89 9.89 0 01-8.7 3.28 6.13 6.13 0 002.48-6.38z"
+              d="M910.88 547.81l6.21.22s3.24 20.9-1.08 29.73a9.88 9.88 0 01-8.81 3 6.12 6.12 0 002.71-6.29z"
               data-name="Path 165"
             ></path>
             <path
               id="Path_166"
               fill="#062538"
-              d="M902.55 671.46l1 49.68 63.07 3.27s4.12 18.45 0 26.65h-63.11s-32.38 5.4-34.16-23.54-2-48.18-2-48.18 22.06-10.34 35.2-7.88z"
+              d="M848.82 492.56l-.82 49.69 62.91 5.56s3.45 18.59-1 26.64l-63-2.3s-32.55 4.21-33.28-24.78-.19-48.22-.19-48.22 22.34-9.54 35.38-6.59z"
               data-name="Path 166"
             ></path>
             <path
               id="Path_167"
               fill="#0a3759"
-              d="M903.56 664.15s7.37 22-6.37 26.66-78.3 0-78.3 0l2.86 65.45s-18.34 5.33-34.06 0l-2.15-77s-5.08-22 41-18.42z"
+              d="M850.1 485.29s6.57 22.26-7.34 26.42-78.24-2.86-78.24-2.86l.47 65.52s-18.53 4.65-34-1.25l.66-77s-4.27-22.21 41.61-16.92z"
               data-name="Path 167"
             ></path>
             <path
               id="Path_169"
               fill="#2481d3"
-              d="M896.43 647h.57c9.12-.42 16-3.1 20.51-8a17.17 17.17 0 004.65-13.1 10.13 10.13 0 00-.18-1.08c-4-17.44-19.2-39.86-19.84-40.8a11.41 11.41 0 00-15.14-3.17 9.78 9.78 0 00-3.39 14c3.49 5.14 12.58 19.92 16.12 31.22a18.59 18.59 0 01-3.87.53c-6 .28-10.66 5.06-10.36 10.67.29 5.4 5.07 9.65 10.88 9.66z"
+              d="M843.6 467.87h.54c9.13-.09 16.13-2.52 20.79-7.23a17.22 17.22 0 005.13-12.92 10 10 0 00-.15-1.08c-3.4-17.57-17.73-40.53-18.34-41.5a11.4 11.4 0 00-14.94-3.7 9.76 9.76 0 00-3.9 13.9c3.3 5.27 11.84 20.37 15 31.79a18.08 18.08 0 01-3.89.39c-6 .06-10.84 4.67-10.74 10.29.09 5.41 4.72 9.83 10.52 10.05z"
               data-name="Path 169"
             ></path>
             <path
               id="Path_170"
               fill="#126bad"
-              d="M895.9 626.64c-6 .27-10.67 5-10.39 10.64.28 5.43 5.08 9.7 10.92 9.69h.57c6.92-.31 12.55-1.94 16.83-4.83-9.89-14.73-12.36-43.3-12.36-43.3L888.75 603c4 6.71 8.69 15.64 11 23.09a18.77 18.77 0 01-3.85.55z"
+              d="M843.82 447.53c-6 .05-10.86 4.64-10.78 10.26.08 5.43 4.73 9.87 10.56 10.08h.54c6.92-.06 12.62-1.48 17-4.21-9.35-15.09-10.78-43.73-10.78-43.73l-12.83 3.73c3.71 6.85 8.11 15.95 10.17 23.48a18.7 18.7 0 01-3.88.39z"
               data-name="Path 170"
             ></path>
             <g id="Group_79" data-name="Group 79">
@@ -1831,39 +1791,39 @@ const SearchAsset = () => {
                 <path
                   id="Path_172"
                   fill="#a05e47"
-                  d="M887.93 559.24l-1 17.77-9.21 7-8.26-5.26.6-10.69z"
+                  d="M838.3 379.88l-1.64 17.73-9.46 6.69-8.07-5.56 1-10.66z"
                   data-name="Path 172"
                 ></path>
               </g>
               <path
                 id="Rectangle_31"
                 fill="#a05e47"
-                d="M859.76 574.11l22.13 1.08a5 5 0 005.4-4.52l1.88-33.59a4.92 4.92 0 00-4.86-5L862.17 531a5 5 0 00-5.39 4.52l-1.88 33.59a4.91 4.91 0 004.86 5z"
+                d="M809.61 393.72l22.08 1.88a5 5 0 005.55-4.32l3.11-33.5a4.92 4.92 0 00-4.68-5.19l-22.08-1.89A5 5 0 00808 355l-3.11 33.5a4.92 4.92 0 004.72 5.22z"
                 data-name="Rectangle 31"
               ></path>
               <path
                 id="Path_173"
                 fill="#171c27"
-                d="M871.89 566.48c-2.33-2.5-3.28-5.83-4.13-9.05a3.1 3.1 0 01-.13-1.6 3.8 3.8 0 01.91-1.34 5.73 5.73 0 001.64-3.49 2.92 2.92 0 00-2.19-3 3.29 3.29 0 00-3.54 2.47 8.3 8.3 0 00.44 4.5c-1.62.65-3.29-1.1-3.45-2.74s.53-3.27.35-4.91c-.29-2.65-2.67-4.59-4.38-6.72s-2.63-5.54-.39-7.19a20.42 20.42 0 013.21-1.38c1.77-.86 2.85-2.61 4.53-3.62a10.57 10.57 0 014-1.19c8.33-1.16 17.91 1.62 21.85 8.55 3 5.23 2.22 11.55 1.38 17.42-.7 4.91-.63 12.76-5.93 15.38-4.52 2.27-10.75 1.55-14.17-2.09z"
+                d="M822 386.53c-2.24-2.58-3.06-5.95-3.79-9.19a3 3 0 01-.08-1.6 3.74 3.74 0 011-1.31 5.78 5.78 0 001.77-3.43 2.92 2.92 0 00-2.08-3 3.3 3.3 0 00-3.64 2.34 8.35 8.35 0 00.28 4.5c-1.64.6-3.25-1.22-3.34-2.86s.64-3.25.52-4.89c-.19-2.65-2.5-4.68-4.13-6.88s-2.42-5.62-.12-7.2a19.52 19.52 0 013.25-1.25c1.8-.81 2.95-2.52 4.66-3.46a10.49 10.49 0 014-1c8.37-.86 17.84 2.26 21.52 9.34 2.78 5.34 1.8 11.62.75 17.45-.88 4.89-1.1 12.73-6.49 15.16-4.59 1.99-10.79 1.05-14.08-2.72z"
                 data-name="Path 173"
               ></path>
             </g>
             <path
               id="Path_174"
               fill="#2481d3"
-              d="M886.37 576.15s18.52 0 17.11 18.55-4 29.59-1.64 41.62 1.72 27.83 1.72 27.83-38.29 11.68-59.15-1.11c0 0 3.05-60.31 3.75-69.59s10.07-17.39 24.85-17.3l14.78.09"
+              d="M836.13 396.73s18.5.67 16.42 19.16-5.06 29.42-3.16 41.53.71 27.87.71 27.87-38.69 10.28-59.1-3.29c0 0 5.25-60.16 6.29-69.41s10.69-17 25.46-16.38l14.76.63"
               data-name="Path 174"
             ></path>
             <path
               id="Path_175"
               fill="#0d314c"
-              d="M871.77 663.4a82.26 82.26 0 0032-6.28.33.33 0 00.16-.45.38.38 0 00-.49-.14c-.27.12-27.34 12.73-58.15 1.66a.37.37 0 00-.47.19.33.33 0 00.2.44 78.59 78.59 0 0026.75 4.58z"
+              d="M818.36 483.39a82.26 82.26 0 0032.24-5.11.32.32 0 00.17-.45.39.39 0 00-.48-.17c-.28.12-27.79 11.73-58.18-.45a.36.36 0 00-.47.17.32.32 0 00.18.44 78.76 78.76 0 0026.54 5.57z"
               data-name="Path 175"
             ></path>
             <path
               id="Path_177"
               fill="#0d314c"
-              d="M903.27 648.38a.35.35 0 00.35-.35 89.64 89.64 0 00-1.44-11.77c-1.68-8.61-.84-16.52.32-27.48.43-4.14.93-8.83 1.33-14.06a.36.36 0 00-.34-.36.38.38 0 00-.39.32c-.4 5.21-.89 9.9-1.33 14-1.12 10.59-2 19-.31 27.66a90 90 0 011.43 11.68.35.35 0 00.38.36z"
+              d="M850.39 469.53a.35.35 0 00.36-.34 88.36 88.36 0 00-1-11.81c-1.36-8.66-.23-16.54 1.32-27.44.59-4.13 1.26-8.8 1.85-14a.36.36 0 00-.33-.38.38.38 0 00-.4.3c-.58 5.19-1.25 9.86-1.84 14-1.5 10.55-2.69 18.89-1.32 27.64a86.87 86.87 0 011 11.72.37.37 0 00.36.31z"
               data-name="Path 177"
             ></path>
             <g id="explorerHand">
@@ -1871,7 +1831,7 @@ const SearchAsset = () => {
                 <path
                   id="Path_159"
                   fill="#fff"
-                  d="M836.11 541.47c-6.82 4.22-16 2.49-20.56-3.87s-2.68-14.93 4.15-19.16 16-2.49 20.56 3.87 2.68 14.93-4.15 19.16z"
+                  d="M787.17 360.24c-7 4-16.12 1.9-20.41-4.62s-2.13-15 4.84-19 16.12-1.91 20.41 4.61 2.13 15.03-4.84 19.01z"
                   data-name="Path 159"
                   opacity="0.6"
                   style={{ isolation: "isolate" }}
@@ -1879,7 +1839,7 @@ const SearchAsset = () => {
                 <path
                   id="Path_160"
                   fill="#fff"
-                  d="M836.11 541.47a14.35 14.35 0 002.06-1.54l-12.06-23.69a15.23 15.23 0 00-6.42 2.21l-.44.28 13 24.43a15.3 15.3 0 003.86-1.69z"
+                  d="M787.17 360.24a14.19 14.19 0 002.11-1.47l-11.19-24.11a15.4 15.4 0 00-6.49 2l-.46.27 12.14 24.89a15.65 15.65 0 003.89-1.58z"
                   data-name="Path 160"
                   opacity="0.6"
                   style={{ isolation: "isolate" }}
@@ -1887,7 +1847,7 @@ const SearchAsset = () => {
                 <path
                   id="Path_161"
                   fill="#fff"
-                  d="M830 543.64l-13-23a13.61 13.61 0 00-1.27 1.48l11.95 21.69a15.23 15.23 0 002.32-.17z"
+                  d="M781 362.19l-12.17-23.5a12.87 12.87 0 00-1.33 1.43l11.16 22.11a16.62 16.62 0 002.34-.04z"
                   data-name="Path 161"
                   opacity="0.6"
                   style={{ isolation: "isolate" }}
@@ -1895,228 +1855,250 @@ const SearchAsset = () => {
                 <path
                   id="Path_162"
                   fill="#3d2b4f"
-                  d="M836.83 542.47c7.41-4.59 9.43-13.91 4.51-20.82s-14.94-8.79-22.36-4.21-9.43 13.92-4.51 20.83 14.94 8.78 22.36 4.2zm-1.43-2a14.16 14.16 0 01-18.78-3.53 12.1 12.1 0 013.79-17.5 14.18 14.18 0 0118.78 3.56 12.12 12.12 0 01-3.79 17.47z"
+                  d="M787.85 361.26c7.58-4.31 9.93-13.56 5.26-20.64s-14.6-9.33-22.18-5-9.94 13.56-5.27 20.65 14.6 9.3 22.19 4.99zm-1.36-2.05a14.17 14.17 0 01-18.64-4.21 12.11 12.11 0 014.43-17.35 14.18 14.18 0 0118.64 4.21 12.13 12.13 0 01-4.43 17.35z"
                   data-name="Path 162"
                 ></path>
                 <path
                   id="Path_163"
                   fill="#3d2b4f"
-                  d="M816.26 538.6l-29.65 19.49a2.42 2.42 0 01-3.23-.49 2.06 2.06 0 01.53-3l.11-.07 30.78-17.9a1.35 1.35 0 011.77.4 1.15 1.15 0 01-.34 1.6z"
+                  d="M767.43 356.65L737.09 375a2.42 2.42 0 01-3.21-.6 2.07 2.07 0 01.64-3l.12-.07 31.41-16.76a1.34 1.34 0 011.75.46 1.14 1.14 0 01-.4 1.59z"
                   data-name="Path 163"
                 ></path>
               </g>
               <path
                 id="Path_168"
                 fill="#a05e47"
-                d="M805.84 538.58a4.94 4.94 0 00-1.92-1.7 1.94 1.94 0 00-2.37.57c-.63 1.13.75 2.37.83 3.64a2.86 2.86 0 01-1.51 2.37 22.5 22.5 0 01-2.78 1.26 9.64 9.64 0 00-5.2 11.68 3.44 3.44 0 001.6 2 4.79 4.79 0 003.42-.22 44 44 0 008.66-3.55c2.4-1.42 6.19-4.1 5.06-7-1.22-3.13-3.63-6.35-5.79-9.05z"
+                d="M757 356.24a4.85 4.85 0 00-1.86-1.76 1.93 1.93 0 00-2.38.48c-.68 1.11.66 2.39.69 3.67a2.82 2.82 0 01-1.59 2.31 22.28 22.28 0 01-2.82 1.16 9.63 9.63 0 00-5.63 11.48 3.43 3.43 0 001.53 2.1 4.76 4.76 0 003.42-.1 42.75 42.75 0 008.78-3.23c2.46-1.33 6.34-3.87 5.32-6.82-1.09-3.2-3.46-6.53-5.46-9.29z"
                 data-name="Path 168"
               ></path>
               <path
                 id="Path_171"
                 fill="#2481d3"
-                d="M829.69 578.3l32.6-.93c6-.17 11.06 4.24 11.25 9.86S869 597.53 863 597.7l-39.33 1.12h-.34a11 11 0 01-9.6-5.34l-21-36.12c6.25-3.79 19.21-9.67 19.21-9.67z"
+                d="M779.4 396.81l32.62.26c6 0 10.9 4.64 10.88 10.26s-4.93 10.13-11 10.08l-39.35-.31h-.34a11.08 11.08 0 01-9.4-5.68l-19.63-36.86c6.39-3.56 19.56-9 19.56-9z"
                 data-name="Path 171"
               ></path>
               <path
                 id="Path_178"
                 fill="#0d314c"
-                d="M795 561.64h.09a52.11 52.11 0 0019.39-9.72.33.33 0 000-.48.39.39 0 00-.51 0 51.21 51.21 0 01-19.06 9.56.33.33 0 00-.26.41.36.36 0 00.35.26z"
+                d="M745.34 378.89h.09a51.9 51.9 0 0019.73-9 .31.31 0 00.05-.47.4.4 0 00-.52 0 51.07 51.07 0 01-19.41 8.85.34.34 0 00-.28.41.35.35 0 00.34.26z"
                 data-name="Path 178"
               ></path>
               <path
                 id="Path_179"
                 fill="#0d314c"
-                d="M813.13 551.67a.36.36 0 00.2-.06.33.33 0 00.1-.47l-1.72-2.35a.36.36 0 00-.5-.09.32.32 0 00-.1.47l1.72 2.35a.38.38 0 00.3.15z"
+                d="M763.83 369.59a.35.35 0 00.2 0 .33.33 0 00.12-.47l-1.63-2.41a.38.38 0 00-.5-.11.33.33 0 00-.12.47l1.63 2.41a.37.37 0 00.3.11z"
                 data-name="Path 179"
               ></path>
               <path
                 id="Path_180"
                 fill="#0d314c"
-                d="M811.37 553a.25.25 0 00.17 0 .32.32 0 00.16-.45A16.45 16.45 0 00810 550a.37.37 0 00-.51 0 .31.31 0 00-.06.47 15.84 15.84 0 011.67 2.4.37.37 0 00.27.13z"
+                d="M762 370.84a.34.34 0 00.34-.48 16.17 16.17 0 00-1.65-2.56.37.37 0 00-.51-.07.32.32 0 00-.08.47 15.55 15.55 0 011.59 2.45.36.36 0 00.31.19z"
                 data-name="Path 180"
               ></path>
               <path
                 id="Path_181"
                 fill="#0d314c"
-                d="M809.52 554.34a.34.34 0 00.37-.33.47.47 0 000-.16 22 22 0 00-1.49-2.34.38.38 0 00-.51-.09.31.31 0 00-.09.46 20.81 20.81 0 011.44 2.28.37.37 0 00.28.18z"
+                d="M760.13 372.13a.34.34 0 00.37-.32.3.3 0 000-.16 21.39 21.39 0 00-1.41-2.39.38.38 0 00-.5-.11.32.32 0 00-.11.46 23.68 23.68 0 011.37 2.33.34.34 0 00.28.19z"
                 data-name="Path 181"
               ></path>
               <path
                 id="Path_182"
                 fill="#0d314c"
-                d="M807.57 555.16a.34.34 0 00.22-.07.33.33 0 00.08-.47 17.43 17.43 0 01-1.82-2.8.38.38 0 00-.49-.15.32.32 0 00-.17.45 19 19 0 001.89 2.9.37.37 0 00.29.14z"
+                d="M758.15 372.88a.43.43 0 00.22-.06.33.33 0 00.09-.47 18.63 18.63 0 01-1.72-2.87.39.39 0 00-.48-.17.34.34 0 00-.18.45 18.68 18.68 0 001.78 3 .38.38 0 00.29.12z"
                 data-name="Path 182"
               ></path>
               <path
                 id="Path_183"
                 fill="#0d314c"
-                d="M805.33 556.57a.41.41 0 00.16 0 .34.34 0 00.18-.45l-1.25-2.59a.38.38 0 00-.49-.17.34.34 0 00-.18.45l1.26 2.59a.38.38 0 00.32.17z"
+                d="M755.86 374.2a.36.36 0 00.15 0 .32.32 0 00.2-.44l-1.16-2.64a.37.37 0 00-.47-.18.32.32 0 00-.2.44l1.16 2.63a.35.35 0 00.32.19z"
                 data-name="Path 183"
               ></path>
               <path
                 id="Path_184"
                 fill="#0d314c"
-                d="M803.15 557.38a.41.41 0 00.22-.07.32.32 0 00.07-.48 22 22 0 01-2-3 .37.37 0 00-.49-.13.33.33 0 00-.15.45 21.08 21.08 0 002.11 3.06.34.34 0 00.24.17z"
+                d="M753.65 374.93a.33.33 0 00.22-.06.32.32 0 00.09-.47 21.16 21.16 0 01-1.93-3 .38.38 0 00-.49-.14.32.32 0 00-.16.44 22.12 22.12 0 002 3.14.37.37 0 00.27.09z"
                 data-name="Path 184"
               ></path>
               <path
                 id="Path_185"
                 fill="#0d314c"
-                d="M801.15 558.47a.45.45 0 00.16 0 .32.32 0 00.16-.45l-1.37-2.63a.38.38 0 00-.49-.16.33.33 0 00-.17.45l1.38 2.63a.36.36 0 00.33.16z"
+                d="M751.61 376a.31.31 0 00.16 0 .34.34 0 00.18-.45l-1.28-2.68a.38.38 0 00-.48-.17.32.32 0 00-.18.44l1.27 2.67a.37.37 0 00.33.19z"
                 data-name="Path 185"
               ></path>
               <path
                 id="Path_186"
                 fill="#0d314c"
-                d="M798.62 559.2a.41.41 0 00.18-.05.32.32 0 00.14-.45c-.6-1-1.17-2-1.7-3.06a.37.37 0 00-.47-.17.32.32 0 00-.17.45c.53 1 1.11 2.08 1.71 3.1a.38.38 0 00.31.18z"
+                d="M749.05 376.59a.48.48 0 00.18 0 .32.32 0 00.16-.45c-.56-1-1.09-2.08-1.58-3.12a.37.37 0 00-.47-.18.33.33 0 00-.19.45c.5 1.06 1 2.12 1.6 3.16a.38.38 0 00.3.14z"
                 data-name="Path 186"
               ></path>
               <path
                 id="Path_187"
                 fill="#0d314c"
-                d="M795.89 560.15a.42.42 0 00.23-.07.32.32 0 00.06-.48 8 8 0 01-1.27-2.08.36.36 0 00-.46-.2.33.33 0 00-.21.44 8.79 8.79 0 001.38 2.26.37.37 0 00.27.13z"
+                d="M746.3 377.44a.34.34 0 00.22-.07.31.31 0 00.08-.47 7.85 7.85 0 01-1.19-2.13.36.36 0 00-.45-.21.34.34 0 00-.23.43 8.76 8.76 0 001.27 2.31.44.44 0 00.3.14z"
                 data-name="Path 187"
               ></path>
             </g>
             <path
               id="Path_188"
               fill="#0d314c"
-              d="M901.81 664.45a.35.35 0 00.36-.33v-4.74a.35.35 0 00-.36-.34.36.36 0 00-.37.34v4.74a.36.36 0 00.37.33z"
+              d="M848.34 485.53a.34.34 0 00.37-.32l.17-4.73a.36.36 0 00-.72 0l-.18 4.73a.36.36 0 00.36.35z"
               data-name="Path 188"
             ></path>
             <path
               id="Path_189"
               fill="#0d314c"
-              d="M899.41 664.19a.35.35 0 00.36-.34v-3.35a.36.36 0 00-.72 0v3.35a.35.35 0 00.36.34z"
+              d="M846 485.19a.37.37 0 00.38-.33l.12-3.35a.35.35 0 00-.35-.35.36.36 0 00-.38.32l-.12 3.35a.36.36 0 00.35.36z"
               data-name="Path 189"
             ></path>
             <path
               id="Path_190"
               fill="#0d314c"
-              d="M896.83 665.4a.35.35 0 00.36-.34v-3.87a.37.37 0 00-.73 0v3.87a.36.36 0 00.37.34z"
+              d="M843.32 486.29a.35.35 0 00.38-.32l.14-3.87a.35.35 0 00-.35-.35.36.36 0 00-.38.33l-.14 3.86a.35.35 0 00.35.35z"
               data-name="Path 190"
             ></path>
             <path
               id="Path_191"
               fill="#0d314c"
-              d="M893.78 665.91a.36.36 0 00.37-.34v-3.09a.36.36 0 00-.37-.34.35.35 0 00-.36.34v3.09a.35.35 0 00.36.34z"
+              d="M840.26 486.7a.36.36 0 00.38-.33l.11-3.09a.34.34 0 00-.35-.35.34.34 0 00-.37.32l-.12 3.1a.36.36 0 00.35.35z"
               data-name="Path 191"
             ></path>
             <path
               id="Path_192"
               fill="#0d314c"
-              d="M891 666.52a.36.36 0 00.37-.34v-3.45a.36.36 0 00-.37-.34.35.35 0 00-.36.34v3.45a.35.35 0 00.36.34z"
+              d="M837.47 487.21a.37.37 0 00.38-.33l.13-3.45a.36.36 0 00-.36-.35.36.36 0 00-.37.33l-.13 3.44a.36.36 0 00.35.36z"
               data-name="Path 192"
             ></path>
             <path
               id="Path_193"
               fill="#0d314c"
-              d="M888.34 667.14a.35.35 0 00.36-.34v-3.46a.35.35 0 00-.36-.34.36.36 0 00-.37.34v3.46a.36.36 0 00.37.34z"
+              d="M834.78 487.73a.35.35 0 00.37-.33l.13-3.46a.35.35 0 00-.35-.35.36.36 0 00-.38.32l-.12 3.46a.36.36 0 00.35.36z"
               data-name="Path 193"
             ></path>
             <path
               id="Path_194"
               fill="#0d314c"
-              d="M885.2 667.12a.36.36 0 00.37-.34v-3.28a.36.36 0 00-.37-.33.35.35 0 00-.36.33v3.28a.35.35 0 00.36.34z"
+              d="M831.65 487.59a.35.35 0 00.37-.32l.12-3.28a.35.35 0 00-.35-.35.36.36 0 00-.38.33l-.12 3.27a.36.36 0 00.36.35z"
               data-name="Path 194"
             ></path>
             <path
               id="Path_195"
               fill="#0d314c"
-              d="M882.52 667.28a.36.36 0 00.37-.33v-2.83a.36.36 0 00-.37-.34.35.35 0 00-.36.34v2.83a.35.35 0 00.36.33z"
+              d="M829 487.66a.36.36 0 00.38-.33l.1-2.83a.35.35 0 00-.35-.35.36.36 0 00-.38.32l-.1 2.84a.35.35 0 00.35.35z"
               data-name="Path 195"
             ></path>
             <path
               id="Path_196"
               fill="#0d314c"
-              d="M880.13 668.17a.35.35 0 00.36-.34v-3.38a.35.35 0 00-.36-.34.36.36 0 00-.37.34v3.38a.36.36 0 00.37.34z"
+              d="M826.54 488.46a.35.35 0 00.37-.33l.13-3.37a.37.37 0 00-.36-.36.36.36 0 00-.37.33l-.12 3.37a.35.35 0 00.34.36z"
               data-name="Path 196"
             ></path>
             <path
               id="Path_197"
               fill="#0d314c"
-              d="M876.9 667.54a.35.35 0 00.36-.33v-2.16a.35.35 0 00-.36-.34.36.36 0 00-.36.34v2.16a.35.35 0 00.36.33z"
+              d="M823.33 487.71a.35.35 0 00.38-.32l.08-2.15a.36.36 0 00-.36-.35.34.34 0 00-.37.32l-.08 2.15a.35.35 0 00.35.35z"
               data-name="Path 197"
             ></path>
             <path
               id="Path_198"
               fill="#0d314c"
-              d="M874.68 668.23a.36.36 0 00.37-.34v-2.66a.37.37 0 00-.73 0v2.66a.35.35 0 00.36.34z"
+              d="M821.09 488.32a.36.36 0 00.38-.32l.1-2.66a.37.37 0 00-.73 0l-.1 2.67a.36.36 0 00.35.35z"
               data-name="Path 198"
             ></path>
             <path
               id="Path_199"
               fill="#0d314c"
-              d="M872.56 668.51a.37.37 0 00.37-.34v-3.37a.37.37 0 00-.73 0v3.37a.35.35 0 00.36.34z"
+              d="M819 488.52a.36.36 0 00.37-.33l.12-3.36a.36.36 0 00-.35-.36.35.35 0 00-.37.33l-.13 3.36a.36.36 0 00.36.36z"
               data-name="Path 199"
             ></path>
             <path
               id="Path_200"
               fill="#0d314c"
-              d="M870.26 668.61a.35.35 0 00.36-.34v-3.47a.35.35 0 00-.36-.34.36.36 0 00-.37.34v3.47a.36.36 0 00.37.34z"
+              d="M816.66 488.54a.35.35 0 00.37-.33l.13-3.47a.37.37 0 00-.73 0l-.13 3.48a.36.36 0 00.36.32z"
               data-name="Path 200"
             ></path>
             <path
               id="Path_201"
               fill="#0d314c"
-              d="M867.77 667.9a.35.35 0 00.36-.34v-2.76a.35.35 0 00-.36-.34.36.36 0 00-.37.34v2.76a.36.36 0 00.37.34z"
+              d="M814.19 487.73a.35.35 0 00.38-.32l.1-2.76a.35.35 0 00-.35-.35.36.36 0 00-.38.32l-.1 2.76a.35.35 0 00.35.35z"
               data-name="Path 201"
             ></path>
             <path
               id="Path_202"
               fill="#0d314c"
-              d="M865.37 667.54a.35.35 0 00.36-.33v-2.41a.35.35 0 00-.36-.34.36.36 0 00-.37.34v2.41a.36.36 0 00.37.33z"
+              d="M811.81 487.29a.34.34 0 00.37-.32l.09-2.41a.35.35 0 00-.35-.35.34.34 0 00-.37.33l-.09 2.4a.34.34 0 00.35.35z"
               data-name="Path 202"
             ></path>
             <path
               id="Path_203"
               fill="#0d314c"
-              d="M862.51 668.17a.35.35 0 00.36-.34v-3.29a.36.36 0 00-.72 0v3.29a.34.34 0 00.36.34z"
+              d="M808.93 487.82a.35.35 0 00.37-.33l.12-3.29a.35.35 0 00-.35-.35.34.34 0 00-.37.33l-.12 3.28a.36.36 0 00.35.36z"
               data-name="Path 203"
             ></path>
             <path
               id="Path_204"
               fill="#0d314c"
-              d="M859.83 667.59a.35.35 0 00.36-.34v-3.57a.36.36 0 00-.72 0v3.57a.35.35 0 00.36.34z"
+              d="M806.27 487.14a.36.36 0 00.38-.32l.13-3.58a.37.37 0 00-.73 0l-.13 3.57a.35.35 0 00.35.33z"
               data-name="Path 204"
             ></path>
             <path
               id="Path_205"
               fill="#0d314c"
-              d="M857.8 667a.35.35 0 00.37-.34v-3.25a.37.37 0 00-.73 0v3.25a.35.35 0 00.36.34z"
+              d="M804.27 486.49a.37.37 0 00.38-.33l.11-3.25a.35.35 0 00-.35-.35.34.34 0 00-.37.33l-.12 3.25a.35.35 0 00.35.35z"
               data-name="Path 205"
             ></path>
             <path
               id="Path_206"
               fill="#0d314c"
-              d="M855.22 666.69a.35.35 0 00.36-.34v-3.53a.36.36 0 00-.72 0v3.53a.35.35 0 00.36.34z"
+              d="M801.7 486.07a.34.34 0 00.37-.32l.13-3.53a.36.36 0 00-.35-.36.35.35 0 00-.37.33l-.13 3.53a.34.34 0 00.35.35z"
               data-name="Path 206"
             ></path>
             <path
               id="Path_207"
               fill="#0d314c"
-              d="M853 666.18a.35.35 0 00.36-.34v-3.45a.37.37 0 00-.73 0v3.45a.35.35 0 00.37.34z"
+              d="M799.5 485.48a.35.35 0 00.38-.33l.13-3.44a.35.35 0 00-.36-.35.34.34 0 00-.37.32l-.13 3.45a.36.36 0 00.35.35z"
               data-name="Path 207"
             ></path>
             <path
               id="Path_208"
               fill="#0d314c"
-              d="M850.42 665.57a.36.36 0 00.37-.34v-3.09a.36.36 0 00-.37-.34.35.35 0 00-.36.34v3.1a.35.35 0 00.36.33z"
+              d="M796.94 484.78a.37.37 0 00.38-.33l.11-3.09a.36.36 0 00-.72 0l-.12 3.1a.37.37 0 00.35.32z"
               data-name="Path 208"
             ></path>
             <path
               id="Path_209"
               fill="#0d314c"
-              d="M847.93 664.28a.36.36 0 00.37-.34v-3.18a.36.36 0 00-.37-.34.35.35 0 00-.36.34v3.18a.35.35 0 00.36.34z"
+              d="M794.5 483.39a.35.35 0 00.38-.32l.12-3.18a.36.36 0 00-.36-.35.34.34 0 00-.37.32l-.12 3.18a.35.35 0 00.35.35z"
               data-name="Path 209"
             ></path>
             <path
               id="Path_210"
               fill="#0d314c"
-              d="M846.09 663.68a.35.35 0 00.36-.34V660a.37.37 0 00-.73 0v3.36a.35.35 0 00.37.34z"
+              d="M792.68 482.73a.36.36 0 00.38-.33l.12-3.35a.34.34 0 00-.35-.35.35.35 0 00-.38.32l-.12 3.36a.35.35 0 00.35.35z"
               data-name="Path 210"
             ></path>
           </g>
+        </g>
+        <g id="clouds" fill="#fff">
+          <path
+            id="Path_2"
+            d="M1057.05 194.3c7.9.15 16.07.25 23.36-2.79 7.8-3.24 14.27-10.88 13.86-19.31s-9.68-15.92-17.5-12.74c-5.44 2.2-8.31 8.29-9.14 14.1a12.21 12.21 0 00-23.79 3.3 10 10 0 00-19.55 1.56c-1.75-6.78-3.66-13.88-8.48-19s-13.56-7.18-18.85-2.59c-6.05 5.24-4.17 14.89-1.77 22.52a13.91 13.91 0 00-7.36 3c-2 1.8-3 4.86-1.85 7.27s4.21 3.43 6.93 3.52c21.33.68 42.77.76 64.14 1.16z"
+            data-name="Path 2"
+          ></path>
+          <path
+            id="Path_4"
+            d="M507.1 103.32c2.1 0 4.39 0 6-1.39 1.85-1.54 2.19-4.2 2.4-6.59a7.91 7.91 0 00-.53-4.63c-.86-1.5-2.59-2.25-4.24-2.77-3-1-6.35-1.47-9.35-.43s-5.51 4-5.19 7.14a7.62 7.62 0 00-13.74-.79c-4.14-11.46-18.09-18.29-29.68-14.53a12.65 12.65 0 00-6.92 4.77c-1.54 2.4-1.64 5.88.35 7.93 1.09 1.12 2.73 1.82 3.25 3.3a10.63 10.63 0 01.21 2.7c.78 9.31 18.07 7.54 24.06 6.55 11.06-1.82 22.18-1.27 33.38-1.26z"
+            data-name="Path 4"
+          ></path>
+          <path
+            id="Path_357"
+            d="M1176.6 76.29c15.08.29 30.67.48 44.6-5.32 14.88-6.19 27.24-20.76 26.46-36.86s-18.48-30.39-33.42-24.32c-10.38 4.21-15.86 15.82-17.44 26.92-3.41-10.23-14.64-17.2-25.32-15.72s-19.58 11.25-20.08 22a19 19 0 00-37.33 3c-3.33-13-7-26.51-16.19-36.2s-25.88-13.71-36-4.95c-11.54 10-8 28.42-3.37 43-5.07.77-10.25 2.23-14 5.67s-5.8 9.27-3.53 13.86 8 6.56 13.23 6.73c40.67 1.29 81.61 1.43 122.39 2.19z"
+            data-name="Path 357"
+          ></path>
+          <path
+            id="Path_3"
+            d="M99.15 170.88c11.42-.12 22.94-.25 34.06-2.86 9.17-2.15 19.53-8.34 18.9-17.74-.48-7.06-7.85-12.33-14.91-12s-13.32 5.15-17.06 11.14c-1.71-7.81-5.21-16-12.36-19.61s-18.07.86-17.89 8.85C86 130.46 81.87 122 75 116.13c-9.49-8.06-24.25-9.77-34.78-3.1S25 134.7 30.78 145.71c-6.62-3.14-14.73-3.59-21.21-.15S-1.2 156.67.3 163.85c3.56 17 26.37 7.78 37.81 7.66z"
+            data-name="Path 3"
+          ></path>
         </g>
       </g>
     </svg>

@@ -16,14 +16,6 @@ export default function People() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="-150  0 1350 396.57"
       >
-        <defs>
-          <clipPath id="b">
-            <circle cx="618.45" cy="137.15" r="31.98" fill="none"></circle>
-          </clipPath>
-          <clipPath id="a">
-            <circle cx="611.18" cy="252.71" r="27.53" fill="none"></circle>
-          </clipPath>
-        </defs>
         <g id="Layer 2">
           <g id="Layer 1">
             <g id="landing page canva">

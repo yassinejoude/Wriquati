@@ -12,12 +12,12 @@ const useStyles = makeStyles(() => ({
   homeContainer: {
     height: "92vh",
   },
-  searchContainer:{
+  searchContainer: {
     backgroundColor: "#74daee",
-    opacity: "1",
+   
     height: "100vh",
-    width:'100%',
-    position:'absolute',
+    width: "100%",
+    position: "absolute",
   },
   homeTitle: {
     color: "#FF9B1B",
@@ -33,7 +33,7 @@ const useStyles = makeStyles(() => ({
     fontFamily: "Dosis",
     margin: "0 auto",
     width: "480px",
-    
+    paddingBottom:''
   },
   text: {
     color: "#2C6776",
@@ -66,14 +66,24 @@ export default function Home(props) {
   const [isInputFocus, SetInputFocus] = useState(false);
   const handleFocus = (x) => {
     SetInputFocus(x);
-props.showHeader(false)
+    props.showHeader(false);
   };
 
   return (
     <React.Fragment>
       <CssBaseline />
-      <div className={isInputFocus? classes.searchContainer:classes.homeContainer}>
-        <Grid  style={isInputFocus? {paddingTop:'8vh'}:{}} container direction="row" justify="center" alignItems="center">
+      <div
+        className={
+          isInputFocus ? classes.searchContainer : classes.homeContainer
+        }
+      >
+        <Grid
+          style={isInputFocus ? { paddingTop: "8vh" } : {}}
+          container
+          direction="row"
+          justify="center"
+          alignItems="center"
+        >
           <Grid item xs={12}>
             {isInputFocus === false && (
               <h1 className={classes.homeTitle}>Did you lost a document?</h1>
@@ -105,7 +115,6 @@ props.showHeader(false)
             style={{
               position: "absolute",
               bottom: "0",
-        
             }}
             container
             direction="row"
