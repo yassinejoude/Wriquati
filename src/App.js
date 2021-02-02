@@ -5,22 +5,34 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Step from "./Pages/Step";
 import { useState } from "react";
+import { motion } from "framer-motion";
+import SideBar from "./components/SideBar";
 
 function App() {
-  const [showHeader, SetShowHeader] = useState(true);
+  const [isMenuIconClicked, setMenuIconClicked] = useState(false);
   return (
     <BrowserRouter>
-      <div className="App">
-        {showHeader && <Header />}
-        <Route
-          exact
-          path="/"
-          render={(props) => <Home {...props} showHeader={SetShowHeader} />
-          }
-        ></Route>
+      <div className="app">
+        {isMenuIconClicked && (
+          <SideBar setMenuIconClicked={setMenuIconClicked} />
+        )}
+        <motion.div
+          className="appContainer"
+          animate={isMenuIconClicked ? { x: 200} : { x: 0 }}
+        >
+         {isMenuIconClicked &&<div className="blurStyle"></div>} 
 
-        <Route exact path="/step" component={Step}></Route>
-      </div>
+          {!isMenuIconClicked && (
+            <Header setMenuIconClicked={setMenuIconClicked} />
+          )}
+<div className='routesContainerStyle' onClick={isMenuIconClicked? (()=>{setMenuIconClicked(false)}) : {}} >
+
+          <Route exact path="/" render={(props) => <Home {...props} />}></Route>
+
+          <Route exact path="/step" component={Step}></Route>
+      </div> 
+        </motion.div>
+</div>
     </BrowserRouter>
   );
 }

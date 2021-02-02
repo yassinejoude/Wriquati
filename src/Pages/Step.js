@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ReactScrollWheelHandler from "react-scroll-wheel-handler";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
+import './Step.css'
 
 import Step1Ulis from "../components/Step1";
 import Step2Ulis from "../components/Step2";
@@ -69,7 +70,199 @@ const Step = () => {
         bottom:'0'
       }}
     >
-      <Grid
+    
+
+        <svg className='StepSvgBgStyles' viewBox="-15 0 1390 615">
+      <g id="Layer_2" >
+        <g id="Layer_1-2" >
+          <g id="stepBg" >
+            <path
+              id="UlistrationBg"
+              fill={stepSpec.stepCircleColor}
+              d="M619.65 559.26H21a22.13 22.13 0 01-14.84-5.86A19.45 19.45 0 010 539.26V20C0 9 9.41 0 21 0h673.6"
+              opacity="0.64"
+            ></path>
+            <g
+              id="progressBars"
+              fill="none"
+              stroke="#ff7e21"
+              strokeMiterlimit="10"
+              strokeWidth="2"
+            >
+              <path
+                d="M710.92 1h601.14a22.79 22.79 0 0114.42 5.18 16.51 16.51 0 016 12.49v93.44M638.05 558.52l671.5 1.2c1.52 0 9.59-.1 16.12-5.19 4.13-3.21 6.69-7.66 6.7-12.58l.11-56.44.07-37.78"
+                opacity="0.68"
+              ></path>
+            </g>
+            <g id="scrollBar">
+              <g id="stepCircle">
+                <path
+                  id="circle"
+                  fill="none"
+                  stroke="#f7931e"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
+                  d="M1332.46 122.49c9.29 0 16.82 7.13 16.82 15.93s-7.53 15.92-16.82 15.92-16.83-7.13-16.83-15.92 7.54-15.93 16.83-15.93z"
+                ></path>
+                <text
+                  id="_2"
+                  fill="#f7931e"
+                  data-name="2"
+                  fontFamily="SegoeUI-Bold, Segoe UI"
+                  fontSize="14.63"
+                  fontWeight="700"
+                  transform="matrix(1.05 0 0 1 1328.04 144.35)"
+                  style={{ isolation: "isolate" }}
+                >
+                  1
+                </text>
+              </g>
+              <g id="stepCircle-2" data-name="stepCircle">
+                <path
+                  id="circle-2"
+                  fill="none"
+                  stroke="#f7931e"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
+                  d="M1332.46 217.09c9.29 0 16.82 7.13 16.82 15.92s-7.53 15.93-16.82 15.93-16.83-7.13-16.83-15.93 7.54-15.92 16.83-15.92z"
+                  data-name="circle"
+                ></path>
+                <text
+                  id="_2-2"
+                  fill="#f7931e"
+                  data-name="2"
+                  fontFamily="SegoeUI-Bold, Segoe UI"
+                  fontSize="14.63"
+                  fontWeight="700"
+                  transform="matrix(1.05 0 0 1 1328.04 238.95)"
+                  style={{ isolation: "isolate" }}
+                >
+                  2
+                </text>
+              </g>
+              <g
+                id="ProgressDots"
+                fill="none"
+                stroke="#f48f21"
+                strokeMiterlimit="10"
+                strokeWidth="0.7"
+              >
+                <ellipse cx="1332.46" cy="180.7" rx="3.55" ry="3.38"></ellipse>
+                <ellipse cx="1332.46" cy="191.38" rx="3.55" ry="3.38"></ellipse>
+                <ellipse cx="1332.46" cy="202.19" rx="3.55" ry="3.38"></ellipse>
+                <ellipse cx="1332.46" cy="169.89" rx="3.55" ry="3.38"></ellipse>
+              </g>
+              <g id="stepCircle-3" data-name="stepCircle">
+                <path
+                  id="circle-3"
+                  fill="none"
+                  stroke="#f7931e"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
+                  d="M1332.46 311.35c9.29 0 16.82 7.13 16.82 15.93s-7.53 15.92-16.82 15.92-16.83-7.13-16.83-15.92 7.54-15.93 16.83-15.93z"
+                  data-name="circle"
+                ></path>
+                <text
+                  id="_3"
+                  fill="#f7931e"
+                  data-name="3"
+                  fontFamily="SegoeUI-Bold, Segoe UI"
+                  fontSize="14.63"
+                  fontWeight="700"
+                  transform="matrix(1.05 0 0 1 1328.04 333.22)"
+                  style={{ isolation: "isolate" }}
+                >
+                  3
+                </text>
+              </g>
+              <g
+                id="ProgressDots-2"
+                fill="none"
+                stroke="#f48f21"
+                strokeMiterlimit="10"
+                strokeWidth="0.7"
+                data-name="ProgressDots"
+              >
+                <ellipse cx="1332.46" cy="274.97" rx="3.55" ry="3.38"></ellipse>
+                <ellipse cx="1332.46" cy="285.65" rx="3.55" ry="3.38"></ellipse>
+                <ellipse cx="1332.46" cy="296.46" rx="3.55" ry="3.38"></ellipse>
+                <ellipse cx="1332.46" cy="264.16" rx="3.55" ry="3.38"></ellipse>
+              </g>
+              <g id="stepCircle-4" data-name="stepCircle">
+                <path
+                  id="circle-4"
+                  fill="none"
+                  stroke="#f7931e"
+                  strokeMiterlimit="10"
+                  strokeWidth="2"
+                  d="M1332.46 406.94c9.29 0 16.82 7.13 16.82 15.93s-7.53 15.92-16.82 15.92-16.83-7.13-16.83-15.92 7.54-15.93 16.83-15.93z"
+                  data-name="circle"
+                ></path>
+                <text
+                  id="_2-3"
+                  fill="#f7931e"
+                  data-name="2"
+                  fontFamily="SegoeUI-Bold, Segoe UI"
+                  fontSize="14.63"
+                  fontWeight="700"
+                  transform="matrix(1.05 0 0 1 1328.04 428.81)"
+                  style={{ isolation: "isolate" }}
+                >
+                  4
+                </text>
+              </g>
+              <g
+                id="ProgressDots-3"
+              fill='none'
+                stroke="#f48f21"
+                strokeMiterlimit="10"
+                strokeWidth="0.7"
+                data-name="ProgressDots"
+              >
+                <ellipse cx="1332.46" cy="370.56" rx="3.55" ry="3.38"></ellipse>
+                <ellipse cx="1332.46" cy="381.23" rx="3.55" ry="3.38"></ellipse>
+                <ellipse cx="1332.46" cy="392.05" rx="3.55" ry="3.38"></ellipse>
+                <ellipse cx="1332.46" cy="359.75" rx="3.55" ry="3.38"></ellipse>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </svg>
+    <Grid
+        style={{
+          position: "absolute",
+          width: "100%",
+          bottom:'0px'
+        
+        }}
+        container
+        direction="row"
+        justify="center"
+        alignItems="center"
+      >
+        <Grid item xs={6}>
+          {stepSpec.stepOrder === 1 && <Step1Ulis></Step1Ulis>}
+          {stepSpec.stepOrder === 2 && <Step2Ulis />}
+          {stepSpec.stepOrder === 3 && <Step3Ulis />}
+          {stepSpec.stepOrder === 4 && <Step4Ulis />}
+        </Grid>
+        <Grid item xs={6}>
+        <h1
+            id="stepTitle"
+            style={{
+              fontFamily: "MyriadPro-Regular, Myriad Pro",
+              fontSize: "35px",
+              color: stepSpec.stepCircleColor,
+              textAlign:"center",
+              marginBottom:"70px"
+            }}
+          >
+           {stepSpec.stepTitle}
+          </h1>
+        </Grid>
+        </Grid>
+      {/* <Grid
         style={{
           position: "relative",
          
@@ -232,7 +425,7 @@ const Step = () => {
             ></circle>
           </svg>
         </Grid>
-      </Grid>
+      </Grid> */}
     </ReactScrollWheelHandler>
   );
 };

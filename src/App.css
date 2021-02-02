@@ -1,0 +1,25 @@
+.blurStyle{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.0;
+    position: fixed;
+    z-index: 1;
+    visibility: hidden;
+}
+.appContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.app{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+   
+}
+.routesContainerStyle{
+    height: 100%;
+}

@@ -1,0 +1,10 @@
+.StepSvgBgStyles {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  box-shadow: 22px 88px 9px;
+}

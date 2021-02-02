@@ -7,14 +7,17 @@ import "./home.css";
 import People from "../components/People";
 import Grid from "@material-ui/core/Grid";
 import { Link } from "react-router-dom";
+import DocCard from '../components/DocCard,'
 
 const useStyles = makeStyles(() => ({
   homeContainer: {
-    height: "92vh",
+    position:'relative',
+    height: "100%",
+    width:'100%'
+    
   },
   searchContainer: {
     backgroundColor: "#74daee",
-   
     height: "100vh",
     width: "100%",
     position: "absolute",
@@ -61,12 +64,11 @@ const useStyles = makeStyles(() => ({
     marginLeft: "5%",
   },
 }));
-export default function Home(props) {
+export default function Home() {
   const classes = useStyles();
   const [isInputFocus, SetInputFocus] = useState(false);
   const handleFocus = (x) => {
     SetInputFocus(x);
-    props.showHeader(false);
   };
 
   return (
@@ -78,13 +80,15 @@ export default function Home(props) {
         }
       >
         <Grid
-          style={isInputFocus ? { paddingTop: "8vh" } : {}}
+
           container
           direction="row"
           justify="center"
           alignItems="center"
         >
-          <Grid item xs={12}>
+          <Grid item xs={12}
+          style={{paddingTop:'55px'}}>
+            
             {isInputFocus === false && (
               <h1 className={classes.homeTitle}>Did you lost a document?</h1>
             )}
@@ -115,6 +119,7 @@ export default function Home(props) {
             style={{
               position: "absolute",
               bottom: "0",
+              zIndex:'0'
             }}
             container
             direction="row"
@@ -122,10 +127,11 @@ export default function Home(props) {
             alignItems="center"
           >
             <Grid item xs={12}>
-              {isInputFocus === false && <People />}
-              {isInputFocus && <SearchAsset />}
+              {/* {isInputFocus === false && <People />}
+              {isInputFocus && <SearchAsset />} */}
             </Grid>
           </Grid>
+              <DocCard></DocCard>
         </div>
       </div>
     </React.Fragment>

@@ -1,10 +1,6 @@
 import React from "react";
 
-import { motion } from "framer-motion";
-const variants = {
-  move: { rotateZ: -0 },
-  stable: { rotate: 0 },
-};
+
 export default function People() {
   return (
     <React.Fragment>

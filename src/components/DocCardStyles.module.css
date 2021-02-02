@@ -1,0 +1,69 @@
+.bg {
+  background-color: white;
+  height: 177.4691px;
+  width: 437.31px;
+  border-radius: 18px;
+  padding-top: 10px;
+  padding-bottom: ;
+}
+.titleBg h1 {
+  margin: 0 auto;
+  font-family: "Heebo", sans-serif;
+  font-size: 19pt;
+  font-weight: 900;
+  color: #058989f7;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+
+.titleBg {
+  border-radius: 200px;
+  background-color: rgb(204, 204, 204, 0.26);
+  width: 402px;
+  height: 42px;
+  margin-left: 5px;
+}
+
+.docInfos1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 9px;
+}
+.docInfos1 {
+  height: 73px;
+  width: 423px;
+  margin: 0 auto;
+  border-radius: 18px;
+  margin-top: 10px;
+  background-color: rgb(204, 204, 204, 0.26);
+}
+.docInfos1 ul li h3 {
+  display: inline;
+  font-family: "Heebo", sans-serif;
+  font-size: 14pt;
+  color: #005e5f;
+  opacity: 0.6;
+}
+.docInfos2 p {
+    display: inline;
+    float: left;
+    margin: 0;
+    margin-top: 16px;
+    margin-left: 15px;
+    font-family: "Heebo", sans-serif;
+    font-weight: 700;
+    opacity: 0.4;
+}
+.docInfos2 h3 {
+    display: inline;
+    float: right;
+    margin: 0;
+    margin-top: 13px;
+    margin-right: 33px;
+    font-family: "Heebo", sans-serif;
+    font-size: 13pt;
+    color: #ff7d21;
+    opacity: 0.8;
+   
+}
