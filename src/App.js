@@ -25,7 +25,7 @@ function App() {
           {!isMenuIconClicked && (
             <Header setMenuIconClicked={setMenuIconClicked} />
           )}
-<div className='routesContainerStyle' onClick={isMenuIconClicked? (()=>{setMenuIconClicked(false)}) : {}} >
+<div className='routesContainerStyle' onClick={isMenuIconClicked? (()=>{setMenuIconClicked(false)}) : undefined} >
 
           <Route exact path="/" render={(props) => <Home {...props} />}></Route>
 

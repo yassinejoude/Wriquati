@@ -1,0 +1,22 @@
+.container {
+  margin: 50px auto;
+  width: 900px;
+}
+
+.title {
+  border-radius: 12px;
+  width: fit-content;
+  height: 42px;
+  margin-left: 5px;
+  background-color: rgba(255, 255, 255, 0.633);
+  padding: 7px 10px;
+  font-family: "Heebo", sans-serif;
+  font-size: 14pt;
+  color: #ff7d21;
+  margin: 0;
+  display: inline;
+}
+.gridContainer{
+  margin: 0 auto;
+  
+}

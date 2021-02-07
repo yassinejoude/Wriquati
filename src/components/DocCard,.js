@@ -4,17 +4,21 @@ import { ReactComponent as VerifiedIcon } from "../icons/verified.svg";
 import { ReactComponent as UserIcon } from "../icons/user.svg";
 import { ReactComponent as LocationIcon } from "../icons/googleMaps.svg";
 import { ReactComponent as CheckIcon } from "../icons/check.svg";
+import classNames from 'classnames/bind';
 
 
-export default function DocCard() {
+export default function DocCard(props) {
+
+var cx = classNames.bind(styles);
+
   return (
-    <div className={styles.bg}>
-      <div className={styles.titleBg}>
+    <div className={ cx({docCard:true},{style2:props.style2},{style1:props.style1},{bigSize:props.big},{smallSize:props.small })}>
+      <div className={cx({title:true},{style2:props.style2},{style1:props.style1})}>
         <h1>
-          Diplome Technicien Superieur <CheckIcon />
+          {props.report.ReportId} <CheckIcon />
         </h1>
       </div>
-      <div className={styles.docInfos1}>
+      <div className={cx({primaryInfos:true},{style2:props.style2},{style1:props.style1})}>
         <ul>
           <li>
             <UserIcon />
@@ -26,7 +30,7 @@ export default function DocCard() {
           </li>
         </ul>
       </div>
-      <div className={styles.docInfos2}>
+      <div className={styles.secondaryInfos}>
         <p> il ya un jour</p>
         <h3>
           Yassine Ejjoud <VerifiedIcon />

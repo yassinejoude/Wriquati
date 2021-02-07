@@ -1,12 +1,20 @@
-.bg {
-  background-color: white;
+/*BCard stands for Big Card*/
+/*SCard stands for Small Card*/
+
+.docCard {
   height: 177.4691px;
-  width: 437.31px;
   border-radius: 18px;
   padding-top: 10px;
-  padding-bottom: ;
 }
-.titleBg h1 {
+
+
+.title {
+  border-radius: 200px;
+  width: 402px;
+  height: 42px;
+  margin-left: 5px;
+}
+.title h1 {
   margin: 0 auto;
   font-family: "Heebo", sans-serif;
   font-size: 19pt;
@@ -15,55 +23,84 @@
   padding-top: 2px;
   padding-left: 10px;
 }
-
-.titleBg {
-  border-radius: 200px;
-  background-color: rgb(204, 204, 204, 0.26);
-  width: 402px;
-  height: 42px;
-  margin-left: 5px;
-}
-
-.docInfos1 ul {
+.primaryInfos ul {
   list-style: none;
   padding: 0;
   margin: 0;
   padding-top: 9px;
 }
-.docInfos1 {
+.primaryInfos {
   height: 73px;
   width: 423px;
-  margin: 0 auto;
+  margin-left: 5px;
   border-radius: 18px;
   margin-top: 10px;
   background-color: rgb(204, 204, 204, 0.26);
 }
-.docInfos1 ul li h3 {
+
+.primaryInfos ul li h3 {
   display: inline;
   font-family: "Heebo", sans-serif;
   font-size: 14pt;
   color: #005e5f;
   opacity: 0.6;
 }
-.docInfos2 p {
-    display: inline;
-    float: left;
-    margin: 0;
-    margin-top: 16px;
-    margin-left: 15px;
-    font-family: "Heebo", sans-serif;
-    font-weight: 700;
-    opacity: 0.4;
+.secondaryInfos p {
+  display: inline;
+  float: left;
+  margin: 0;
+  margin-top: 16px;
+  margin-left: 15px;
+  font-family: "Heebo", sans-serif;
+  font-weight: 700;
+  opacity: 0.4;
 }
-.docInfos2 h3 {
-    display: inline;
-    float: right;
-    margin: 0;
-    margin-top: 13px;
-    margin-right: 33px;
-    font-family: "Heebo", sans-serif;
-    font-size: 13pt;
-    color: #ff7d21;
-    opacity: 0.8;
-   
+.secondaryInfos h3 {
+  display: inline;
+  float: right;
+  margin: 0;
+  margin-top: 13px;
+  margin-right: 33px;
+  font-family: "Heebo", sans-serif;
+  font-size: 13pt;
+  color: #ff7d21;
+  opacity: 0.8;
 }
+/*card Style 2*/
+.docCard.style1 {
+  background-color: rgba(255, 255, 255, 0.633);
+  
+}
+.primaryInfos.style1 {
+  background-color: rgba(255, 255, 255, 0.872);
+  width: auto;
+  margin-right: 5px;
+
+}
+.title.style1 {
+  background-color: rgba(255, 255, 255, 0.872);
+}
+
+/*card Style 2*/
+.docCard.style2 {
+  background-color: white;
+  
+}
+.primaryInfos.style2 {
+  background-color: rgb(204, 204, 204, 0.26);
+}
+.title.style2 {
+  background-color: rgb(204, 204, 204, 0.26);
+}
+
+/*card sizes*/
+.docCard.bigSize{
+  width: 100%;
+}
+.docCard.smallSize{
+  width: 437.31px;
+}
+
+
+
+

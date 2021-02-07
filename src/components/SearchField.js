@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import "./SearchField.css";
 import { motion } from "framer-motion";
@@ -8,7 +8,6 @@ const useStyles = makeStyles(() => ({
     margin: "0 auto",
     textAlign: "center",
     color: "red",
-   
   },
   searchField: {
     backgroundColor: "#FF9B1B",
@@ -29,31 +28,37 @@ const variants = {
   visible: { opacity: 1, y: 0 },
 };
 export default function Home(props) {
+  const [inputValue, setInputValue] = useState();
   const classes = useStyles();
-
+  const handleSubmit = (e) => {
+    props.getInputValue(inputValue);
+    e.preventDefault();
+  };
   const showSearchField = () => {
     return (
-      <form  className={classes.searchForm} noValidate autoComplete="off">
+      <form
+        onSubmit={handleSubmit}
+        className={classes.searchForm}
+        noValidate
+        autoComplete="off"
+      >
         <input
-       
-onChange={() => {
-  props.handleFocus(true);
-}}
+          onClick={() => props.handleFocus(true)}
+          onChange={(e) => setInputValue(e.target.value)}
           className={classes.searchField}
           type="text"
           placeholder="I LOST A DOCUMENT"
+          value={inputValue}
         ></input>
       </form>
     );
   };
   return (
-    <motion.div style={{
-      position: "",
-      top: "30",
-
-      
-    }} 
-    
+    <motion.div
+      style={{
+        position: "",
+        top: "30",
+      }}
       initial={variants.hidden}
       animate={variants.visible}
       transition={{ duration: 0.2 }}
