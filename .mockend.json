@@ -18,7 +18,7 @@
     "UserCity": "string",
     "userAdress": "string"
   },
-  "test": {
+  "Test": {
     "id": "string"
   }
 }
