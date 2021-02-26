@@ -1,0 +1,23 @@
+
+.logoStyle {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Heebo", sans-serif;
+  color: orange;
+  margin: 0;
+  margin-left: 20px;
+}
+.fullHeader {
+  background-color: wheat;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+}
+.minHeader {
+  background-color: wheat;
+  position: fixed;
+  z-index: 100;
+}
+.transparent{
+  background-color: transparent;
+}

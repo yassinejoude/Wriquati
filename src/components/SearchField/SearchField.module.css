@@ -1,0 +1,37 @@
+.container{
+  position: absolute;
+  right: 0px;
+}
+.searchForm{
+  text-align: left;
+  width: 500px;
+}
+.searchField{
+  background-color: #FF9B1B;
+  border-radius: 200px;
+  color: white;
+  font-size: 20px;
+  font-family: Dosis;
+  border: 0;
+  outline: none;
+  height: 40px;
+  caret-color: black;
+  padding: 0px 20px;
+}
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+/* BigSearchField */
+.container.big{
+  position: relative;
+  width: 100%;
+}
+.searchForm.big{
+  margin: 0 auto;
+  width: fit-content;
+}
+.searchField.big{
+  width: 800px;
+  height: 40px;
+}

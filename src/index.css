@@ -1,0 +1,20 @@
+:root{
+  --blue: #086464;
+}
+.smallText {
+}
+.meduimText {
+}
+.meduimTitle {
+}
+.bigTitle {
+}
+.centredAsset {
+  position: relative;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.container{
+
+}

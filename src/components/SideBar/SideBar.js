@@ -1,7 +1,8 @@
 import React from "react";
-import CancelIcon from "./CancelIcon";
+import CancelIcon from "../../icons/CancelIcon";
 import { Link as RouterLink } from "react-router-dom";
 import { makeStyles, Button } from "@material-ui/core";
+
 
 const useStyle = makeStyles(() => ({
   menuButtonStyle: {
@@ -52,7 +53,8 @@ const SideBar = (props) => {
         <img
           width="100px"
           height="100px"
-          src={require("../icons/user.png")}
+          src={require("../../icons/user.png")}
+          alt="profile"
         ></img>
         <h1>Sign in</h1>
       </div>
@@ -63,19 +65,19 @@ const SideBar = (props) => {
 const headersData = [
   {
     label: "I lost a document",
-    href: "",
+    href: "./",
   },
   {
     label: "I found a document",
-    href: "",
+    href: "./",
   },
   {
     label: "Contact Us",
-    href: "",
+    href: "./",
   },
   {
     label: "Home",
-    href: "",
+    href: './',
   },
 ];
 export default SideBar;

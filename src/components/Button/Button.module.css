@@ -1,0 +1,12 @@
+.button {
+  font-family: "Heebo";
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border-radius: 50px;
+  background-color: rgb(240, 140, 10);
+  outline: none;
+  border: 0px;
+  height: 40px;
+  width: 75px;
+}
