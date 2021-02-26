@@ -5,7 +5,6 @@
     "findingCity": "string",
     "foundDocs": "FoundDoc[]"
   },
-
   "FoundDoc": {
     "docId": "int",
     "docType": "string",
@@ -18,5 +17,11 @@
     "UserLastName": "string",
     "UserCity": "string",
     "userAdress": "string"
+  },
+  "test": {
+    "id": "string",
+    "arr": {
+      "arrid":"int"
+    }
   }
 }
