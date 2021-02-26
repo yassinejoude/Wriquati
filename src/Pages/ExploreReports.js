@@ -13,9 +13,10 @@ const ExploreReports = ({ setIsFullHeader, setHeaderTransparency }) => {
   const [reports, setReports] = useState();
   useEffect(() => {
     axios
-      .get("https://mockend.com/org/repo/SearchResults")
+      .get("https://mockend.com/org/repo/SearchResult")
       .then((res) => {
         setReports(res.data);
+        alert(res.data)
       })
       .catch((er) => {
         alert(er);
@@ -33,9 +34,9 @@ const ExploreReports = ({ setIsFullHeader, setHeaderTransparency }) => {
     setIsSelected(true);
     setIsFullHeader(false);
   };
-  handleNoResults = () => {
-    setHeaderTransparency(true);
-  };
+  // handleNoResults = () => {
+  //   setHeaderTransparency(true);
+  // };
   return (
     <>
       {/* {isSelected && (
