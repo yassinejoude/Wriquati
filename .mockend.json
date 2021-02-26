@@ -19,9 +19,7 @@
     "userAdress": "string"
   },
   "test": {
-    "id": "string",
-    "arr": {
-      "arrid":"int"
-    }
+    "id": "string"
+
   }
 }
