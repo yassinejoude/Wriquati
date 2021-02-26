@@ -20,6 +20,6 @@
   },
   "Test": {
     "id": "string",
-    "arr": { "idarr": "string" , "carr"	:"string"}
+    "arr": [{ "idarr": "string" }, {"carr"	:"string"}]
   }
 }
