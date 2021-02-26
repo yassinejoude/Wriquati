@@ -1,0 +1,22 @@
+{
+  "SearchResults": {
+    "reportId": "int",
+    "findingDate": "date",
+    "findingCity": "string",
+    "foundDocs": "FoundDocs[]"
+  },
+
+  "FoundDocs": {
+    "docId": "int",
+    "docType": "string",
+    "docOwner": "string",
+    "docFinder": "DocFinder"
+  },
+  "DocFinder": {
+    "Cin": "string",
+    "UserName": "string",
+    "UserLastName": "string",
+    "UserCity": "string",
+    "userAdress": "string"
+  }
+}
