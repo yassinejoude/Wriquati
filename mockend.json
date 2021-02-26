@@ -1,12 +1,12 @@
 {
-  "SearchResults": {
+  "SearchResult": {
     "reportId": "int",
     "findingDate": "date",
     "findingCity": "string",
-    "foundDocs": "FoundDocs[]"
+    "foundDocs": "FoundDoc[]"
   },
 
-  "FoundDocs": {
+  "FoundDoc": {
     "docId": "int",
     "docType": "string",
     "docOwner": "string",
